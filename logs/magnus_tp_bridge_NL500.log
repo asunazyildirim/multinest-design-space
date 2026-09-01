@@ -1,0 +1,386 @@
+  console log       : /mnt/c/Users/asuna/OneDrive/Masaüstü/MagnusCodes/magnus_tp_output/magnus_tp_bridge_NL500.log
+
+==============================================================================
+(T, P) methanol case study on MAGNUS / NSFeas
+==============================================================================
+  design            : temperature in [210, 300],  pressure in [5000, 11000]
+  fixed             : ratio=3, volume=65, recycle_fraction=0.99
+  constraints       : C_eff >= 92 %  (MeOH >= 19186 kg/h),  E_eff >= 81.3 %
+  uncertainty       : K = 1 scenario(s), Rxn-8 Ea forward/reverse
+  criterion         : VaR, feasible <= 0, FEASTHRES = 0  (alpha* = 1)
+  N_L               : 500   NUMPROP = 8
+  model             : HYSYS via /mnt/c/HYSYS_cases/bridge
+  reference         : 24.6% of the box by cell count on the 130-point sweep, 26.1% interpolated
+==============================================================================
+
+** INITIALIZING LIVE POINTS         1 solves      0.8 min    49.3 s/solve   last T= 255.0 P=   8000
+        5 solves      1.9 min    22.3 s/solve   last T= 288.8 P=  10250
+       10 solves      3.0 min    17.8 s/solve   last T= 294.4 P=   5375
+       15 solves      4.0 min    16.0 s/solve   last T= 215.6 P=  10625
+       20 solves      5.2 min    15.6 s/solve   last T= 252.2 P=   5562
+       25 solves      6.2 min    14.9 s/solve   last T= 269.1 P=   8938
+       30 solves      7.1 min    14.3 s/solve   last T= 257.8 P=   5188
+       35 solves      8.2 min    14.0 s/solve   last T= 236.7 P=   8094
+       40 solves      9.1 min    13.6 s/solve   last T= 231.1 P=   5469
+       45 solves     10.3 min    13.7 s/solve   last T= 287.3 P=  10719
+       50 solves     11.4 min    13.7 s/solve   last T= 284.5 P=   7906
+       55 solves     12.4 min    13.5 s/solve   last T= 228.3 P=   8656
+       60 solves     13.4 min    13.4 s/solve   last T= 233.9 P=   5281
+       65 solves     14.6 min    13.5 s/solve   last T= 257.1 P=  10391
+       70 solves     15.5 min    13.3 s/solve   last T= 268.4 P=   6641
+       75 solves     16.5 min    13.2 s/solve   last T= 251.5 P=  10766
+       80 solves     17.5 min    13.1 s/solve   last T= 220.5 P=   5703
+       85 solves     18.6 min    13.1 s/solve   last T= 299.3 P=  10953
+       90 solves     19.8 min    13.2 s/solve   last T= 293.7 P=   5328
+       95 solves     21.1 min    13.3 s/solve   last T= 214.9 P=  10578
+      100 solves     22.0 min    13.2 s/solve   last T= 247.3 P=   6547
+      105 solves     23.3 min    13.3 s/solve   last T= 275.4 P=  10672
+      110 solves     24.3 min    13.2 s/solve   last T= 264.1 P=   6922
+      115 solves     25.3 min    13.2 s/solve   last T= 238.8 P=   8609
+      120 solves     26.6 min    13.3 s/solve   last T= 222.0 P=   5234
+      125 solves     27.6 min    13.2 s/solve   last T= 278.2 P=  10484
+      130 solves     28.6 min    13.2 s/solve   last T= 278.6 P=   5492
+      135 solves     29.9 min    13.3 s/solve   last T= 222.3 P=  10742
+      140 solves     31.4 min    13.5 s/solve   last T= 239.2 P=   7367
+      145 solves     32.6 min    13.5 s/solve   last T= 264.5 P=   9055
+      150 solves     33.7 min    13.5 s/solve   last T= 275.7 P=   5305
+      155 solves     34.7 min    13.4 s/solve   last T= 247.6 P=   9430
+      160 solves     35.8 min    13.4 s/solve   last T= 215.3 P=   5398
+      165 solves     36.9 min    13.4 s/solve   last T= 294.0 P=  10648
+      170 solves     37.8 min    13.3 s/solve   last T= 299.6 P=   5023
+      175 solves     39.0 min    13.4 s/solve   last T= 220.9 P=  10273
+      180 solves     40.1 min    13.4 s/solve   last T= 251.8 P=   5211
+      185 solves     41.5 min    13.4 s/solve   last T= 268.7 P=   9336
+      190 solves     42.8 min    13.5 s/solve   last T= 257.5 P=   5586
+      195 solves     43.8 min    13.5 s/solve   last T= 234.3 P=  10695
+      200 solves     44.9 min    13.5 s/solve   last T= 228.6 P=   7320
+      205 solves     46.1 min    13.5 s/solve   last T= 284.9 P=   8070
+      210 solves     47.0 min    13.4 s/solve   last T= 287.7 P=   5258
+      215 solves     48.9 min    13.6 s/solve   last T= 231.4 P=  10508
+      220 solves     50.1 min    13.7 s/solve   last T= 237.1 P=   7883
+      225 solves     51.1 min    13.6 s/solve   last T= 258.2 P=  10789
+      230 solves     52.2 min    13.6 s/solve   last T= 269.4 P=   7039
+      235 solves     53.3 min    13.6 s/solve   last T= 252.5 P=  10414
+      240 solves     54.2 min    13.6 s/solve   last T= 216.0 P=   5352
+      245 solves     55.4 min    13.6 s/solve   last T= 294.7 P=  10602
+      250 solves     56.3 min    13.5 s/solve   last T= 289.1 P=   5727
+      255 solves     57.3 min    13.5 s/solve   last T= 210.4 P=  10977
+      260 solves     58.4 min    13.5 s/solve   last T= 244.3 P=   5738
+      265 solves     59.3 min    13.4 s/solve   last T= 272.4 P=   9113
+      270 solves     60.3 min    13.4 s/solve   last T= 261.2 P=   5363
+      275 solves     61.7 min    13.5 s/solve   last T= 241.5 P=   9676
+      280 solves     62.8 min    13.5 s/solve   last T= 224.6 P=   7051
+      285 solves     64.1 min    13.5 s/solve   last T= 280.8 P=   9301
+      290 solves     65.2 min    13.5 s/solve   last T= 282.2 P=   7895
+      295 solves     66.2 min    13.5 s/solve   last T= 226.0 P=   8645
+      300 solves     67.4 min    13.5 s/solve   last T= 242.9 P=   5270
+      305 solves     68.3 min    13.4 s/solve   last T= 262.6 P=   9582
+      310 solves     69.2 min    13.4 s/solve   last T= 273.8 P=   7332
+      315 solves     70.5 min    13.4 s/solve   last T= 245.7 P=   9957
+      320 solves     71.6 min    13.4 s/solve   last T= 212.6 P=   5598
+      325 solves     72.8 min    13.4 s/solve   last T= 291.4 P=  10848
+      330 solves     74.1 min    13.5 s/solve   last T= 297.0 P=   5223
+      335 solves     75.2 min    13.5 s/solve   last T= 218.3 P=  10473
+      340 solves     76.0 min    13.4 s/solve   last T= 254.8 P=   5035
+      345 solves     77.1 min    13.4 s/solve   last T= 271.7 P=   9160
+      350 solves     78.2 min    13.4 s/solve   last T= 260.4 P=   5410
+      355 solves     79.1 min    13.4 s/solve   last T= 236.5 P=   8691
+      360 solves     80.3 min    13.4 s/solve   last T= 230.9 P=   5316
+      365 solves     81.3 min    13.4 s/solve   last T= 287.2 P=  10566
+      370 solves     82.3 min    13.4 s/solve   last T= 284.4 P=   7379
+      375 solves     83.6 min    13.4 s/solve   last T= 228.1 P=   8129
+      380 solves     84.5 min    13.3 s/solve   last T= 233.7 P=   5504
+      385 solves     85.8 min    13.4 s/solve   last T= 255.9 P=   8996
+      390 solves     86.9 min    13.4 s/solve   last T= 267.1 P=   5246
+      395 solves     87.9 min    13.4 s/solve   last T= 250.3 P=   9371
+      400 solves     89.2 min    13.4 s/solve   last T= 219.3 P=   6934
+      405 solves     90.5 min    13.4 s/solve   last T= 298.1 P=   9184
+      410 solves     91.8 min    13.4 s/solve   last T= 292.4 P=   6559
+      415 solves     93.1 min    13.5 s/solve   last T= 213.7 P=   8809
+      420 solves     94.1 min    13.4 s/solve   last T= 248.8 P=   5340
+      425 solves     95.4 min    13.5 s/solve   last T= 277.0 P=   9465
+      430 solves     96.6 min    13.5 s/solve   last T= 265.7 P=   5715
+      435 solves     97.6 min    13.5 s/solve   last T= 240.4 P=  10027
+      440 solves     98.9 min    13.5 s/solve   last T= 223.5 P=   6652
+      445 solves     99.9 min    13.5 s/solve   last T= 279.8 P=   8902
+      450 solves    100.9 min    13.5 s/solve   last T= 279.1 P=   5293
+      455 solves    102.0 min    13.5 s/solve   last T= 222.8 P=  10543
+      460 solves    103.2 min    13.5 s/solve   last T= 239.7 P=   7918
+      465 solves    104.1 min    13.4 s/solve   last T= 265.0 P=   9230
+      470 solves    105.7 min    13.5 s/solve   last T= 276.3 P=   5480
+      475 solves    106.7 min    13.5 s/solve   last T= 248.1 P=   8855
+      480 solves    108.0 min    13.5 s/solve   last T= 213.0 P=   5199
+      485 solves    109.2 min    13.5 s/solve   last T= 291.7 P=  10449
+      490 solves    110.2 min    13.5 s/solve   last T= 297.4 P=   5574
+      495 solves    111.9 min    13.6 s/solve   last T= 218.6 P=  10824
+      500 solves    113.0 min    13.6 s/solve   last T= 249.6 P=   5387
+(500)   6778.79 SEC
+
+Iterate        Contour #Feas    #Dead         Factor
+----------------------------------------------------
+      0     1.2533e+01   139        0     3.0000e-01
+      505 solves    114.1 min    13.6 s/solve   last T= 233.9 P=   8861
+      510 solves    115.3 min    13.6 s/solve   last T= 239.7 P=  10695
+      515 solves    116.2 min    13.5 s/solve   last T= 218.6 P=   6426
+      520 solves    117.2 min    13.5 s/solve   last T= 263.0 P=   9883
+      525 solves    118.3 min    13.5 s/solve   last T= 225.2 P=   9722
+      530 solves    119.3 min    13.5 s/solve   last T= 270.7 P=   7370
+      535 solves    120.4 min    13.5 s/solve   last T= 278.6 P=   7244
+      540 solves    121.4 min    13.5 s/solve   last T= 238.5 P=  10768
+      545 solves    122.4 min    13.5 s/solve   last T= 261.4 P=   6917
+      550 solves    123.6 min    13.5 s/solve   last T= 248.5 P=  10891
+      555 solves    124.6 min    13.5 s/solve   last T= 259.2 P=   9379
+      560 solves    125.5 min    13.4 s/solve   last T= 276.4 P=   5152
+      565 solves    126.7 min    13.5 s/solve   last T= 224.9 P=   7805
+      570 solves    127.7 min    13.4 s/solve   last T= 273.8 P=   5044
+      575 solves    128.6 min    13.4 s/solve   last T= 299.6 P=   9577
+      580 solves    129.6 min    13.4 s/solve   last T= 214.1 P=   7733
+      585 solves    130.7 min    13.4 s/solve   last T= 215.2 P=   6302
+      590 solves    131.6 min    13.4 s/solve   last T= 239.7 P=   9400
+      595 solves    133.5 min    13.5 s/solve   last T= 280.2 P=   7518
+      600 solves    134.4 min    13.4 s/solve   last T= 298.7 P=   6001
+      605 solves    135.3 min    13.4 s/solve   last T= 225.0 P=   8265
+      610 solves    136.5 min    13.4 s/solve   last T= 272.7 P=   6521
+      615 solves    137.4 min    13.4 s/solve   last T= 223.2 P=   9035
+      620 solves    138.4 min    13.4 s/solve   last T= 244.9 P=   9637
+      625 solves    139.6 min    13.4 s/solve   last T= 267.0 P=   9086
+      630 solves    140.7 min    13.4 s/solve   last T= 269.5 P=   6224
+      635 solves    142.0 min    13.4 s/solve   last T= 263.8 P=   9119
+      640 solves    143.0 min    13.4 s/solve   last T= 279.0 P=   7600
+      645 solves    143.8 min    13.4 s/solve   last T= 249.5 P=  10057
+      650 solves    145.2 min    13.4 s/solve   last T= 277.4 P=   5368
+      655 solves    146.4 min    13.4 s/solve   last T= 221.3 P=   9040
+      660 solves    147.6 min    13.4 s/solve   last T= 256.8 P=  10744
+      665 solves    148.9 min    13.4 s/solve   last T= 232.6 P=   8726
+      670 solves    149.8 min    13.4 s/solve   last T= 284.0 P=   5193
+      675 solves    150.7 min    13.4 s/solve   last T= 211.3 P=   8163
+      680 solves    152.1 min    13.4 s/solve   last T= 267.7 P=   7719
+      685 solves    153.1 min    13.4 s/solve   last T= 236.1 P=   7326
+      690 solves    154.0 min    13.4 s/solve   last T= 273.4 P=   7287
+      695 solves    155.2 min    13.4 s/solve   last T= 266.2 P=   7411
+      700 solves    156.1 min    13.4 s/solve   last T= 268.9 P=   8190
+     25     1.7748e+00   190      168     2.8061e-01
+      705 solves    157.2 min    13.4 s/solve   last T= 279.0 P=  10056
+      710 solves    158.2 min    13.4 s/solve   last T= 211.3 P=   5924
+      715 solves    159.1 min    13.4 s/solve   last T= 235.1 P=   7490
+      720 solves    160.2 min    13.4 s/solve   last T= 227.5 P=   9988
+      725 solves    161.2 min    13.3 s/solve   last T= 265.8 P=   8770
+      730 solves    162.1 min    13.3 s/solve   last T= 290.9 P=   6109
+      735 solves    163.4 min    13.3 s/solve   last T= 280.4 P=   6682
+      740 solves    164.3 min    13.3 s/solve   last T= 294.8 P=   6565
+      745 solves    165.2 min    13.3 s/solve   last T= 255.0 P=   7894
+      750 solves    166.3 min    13.3 s/solve   last T= 220.2 P=   6052
+      755 solves    167.3 min    13.3 s/solve   last T= 288.9 P=   7871
+      760 solves    168.2 min    13.3 s/solve   last T= 245.4 P=   7246
+      765 solves    169.5 min    13.3 s/solve   last T= 256.5 P=   8911
+      770 solves    170.4 min    13.3 s/solve   last T= 238.8 P=   8805
+      775 solves    171.2 min    13.3 s/solve   last T= 220.2 P=   9686
+      780 solves    172.5 min    13.3 s/solve   last T= 283.7 P=   7270
+      785 solves    173.5 min    13.3 s/solve   last T= 257.1 P=  10770
+      790 solves    174.6 min    13.3 s/solve   last T= 263.7 P=   8390
+      795 solves    176.0 min    13.3 s/solve   last T= 227.1 P=  10335
+      800 solves    176.9 min    13.3 s/solve   last T= 219.2 P=   5884
+      805 solves    177.9 min    13.3 s/solve   last T= 293.7 P=  10497
+      810 solves    179.2 min    13.3 s/solve   last T= 296.9 P=   8201
+      815 solves    180.2 min    13.3 s/solve   last T= 270.7 P=   5461
+      820 solves    181.0 min    13.2 s/solve   last T= 283.7 P=   5281
+      825 solves    182.1 min    13.2 s/solve   last T= 295.0 P=   6010
+      830 solves    183.0 min    13.2 s/solve   last T= 281.1 P=   5064
+      835 solves    183.8 min    13.2 s/solve   last T= 232.2 P=   5382
+      840 solves    185.2 min    13.2 s/solve   last T= 224.0 P=  10228
+      845 solves    186.1 min    13.2 s/solve   last T= 231.6 P=   5670
+      850 solves    186.9 min    13.2 s/solve   last T= 220.7 P=   5391
+      855 solves    188.1 min    13.2 s/solve   last T= 298.7 P=   8795
+      860 solves    189.0 min    13.2 s/solve   last T= 288.2 P=   6096
+      865 solves    191.2 min    13.3 s/solve   last T= 287.7 P=   6768
+      870 solves    192.2 min    13.3 s/solve   last T= 233.0 P=   8764
+      875 solves    193.4 min    13.3 s/solve   last T= 279.2 P=   5402
+      880 solves    194.8 min    13.3 s/solve   last T= 279.2 P=   6963
+      885 solves    195.9 min    13.3 s/solve   last T= 273.4 P=   6504
+      890 solves    196.9 min    13.3 s/solve   last T= 269.0 P=   9250
+      895 solves    198.3 min    13.3 s/solve   last T= 278.4 P=   8176
+      900 solves    199.3 min    13.3 s/solve   last T= 247.4 P=   7726
+     50     6.9100e-01   239      288     2.6746e-01
+      905 solves    200.2 min    13.3 s/solve   last T= 235.6 P=   9237
+      910 solves    201.5 min    13.3 s/solve   last T= 266.9 P=  10811
+      915 solves    202.5 min    13.3 s/solve   last T= 272.3 P=  10199
+      920 solves    203.4 min    13.3 s/solve   last T= 283.3 P=   6726
+      925 solves    204.7 min    13.3 s/solve   last T= 240.9 P=   8495
+      930 solves    205.7 min    13.3 s/solve   last T= 282.7 P=   6571
+      935 solves    206.6 min    13.3 s/solve   last T= 218.4 P=   5146
+      940 solves    207.8 min    13.3 s/solve   last T= 222.6 P=   8392
+      945 solves    208.8 min    13.3 s/solve   last T= 289.5 P=   7734
+      950 solves    210.2 min    13.3 s/solve   last T= 265.4 P=   8023
+      955 solves    211.1 min    13.3 s/solve   last T= 256.3 P=   6821
+      960 solves    212.1 min    13.3 s/solve   last T= 251.9 P=   5858
+      965 solves    213.4 min    13.3 s/solve   last T= 245.9 P=   7037
+      970 solves    214.4 min    13.3 s/solve   last T= 240.3 P=   5933
+      975 solves    215.3 min    13.3 s/solve   last T= 223.2 P=   5616
+      980 solves    216.6 min    13.3 s/solve   last T= 291.5 P=   6357
+      985 solves    217.5 min    13.3 s/solve   last T= 225.6 P=   8795
+      990 solves    218.6 min    13.2 s/solve   last T= 284.1 P=  10692
+      995 solves    219.7 min    13.2 s/solve   last T= 269.4 P=   5079
+     1000 solves    220.6 min    13.2 s/solve   last T= 222.5 P=   7590
+     1005 solves    221.5 min    13.2 s/solve   last T= 232.6 P=   6142
+     1010 solves    222.8 min    13.2 s/solve   last T= 285.7 P=   7989
+     1015 solves    223.8 min    13.2 s/solve   last T= 293.2 P=   7488
+     1020 solves    224.8 min    13.2 s/solve   last T= 281.8 P=   9217
+     1025 solves    226.4 min    13.3 s/solve   last T= 268.9 P=   5103
+     1030 solves    227.4 min    13.2 s/solve   last T= 259.8 P=   9566
+     1035 solves    229.0 min    13.3 s/solve   last T= 272.0 P=   7493
+     1040 solves    230.0 min    13.3 s/solve   last T= 296.5 P=   7685
+     1045 solves    231.1 min    13.3 s/solve   last T= 281.3 P=   9117
+     1050 solves    232.7 min    13.3 s/solve   last T= 220.6 P=   7254
+     1055 solves    233.7 min    13.3 s/solve   last T= 267.9 P=   7275
+     1060 solves    234.7 min    13.3 s/solve   last T= 262.5 P=   9860
+     1065 solves    236.4 min    13.3 s/solve   last T= 240.7 P=   9804
+     1070 solves    237.3 min    13.3 s/solve   last T= 231.5 P=   8391
+     1075 solves    238.2 min    13.3 s/solve   last T= 296.4 P=   8271
+     1080 solves    239.3 min    13.3 s/solve   last T= 236.2 P=   6951
+     1085 solves    240.4 min    13.3 s/solve   last T= 258.3 P=   9716
+     1090 solves    242.1 min    13.3 s/solve   last T= 286.9 P=  10585
+     1095 solves    243.2 min    13.3 s/solve   last T= 241.1 P=   9001
+     1100 solves    244.1 min    13.3 s/solve   last T= 273.3 P=   9053
+     75     3.6827e-01   296      394     2.5636e-01
+     1105 solves    245.4 min    13.3 s/solve   last T= 237.0 P=   5557
+     1110 solves    246.4 min    13.3 s/solve   last T= 224.3 P=   7173
+     1115 solves    247.3 min    13.3 s/solve   last T= 241.0 P=   6618
+     1120 solves    248.7 min    13.3 s/solve   last T= 228.5 P=   7655
+     1125 solves    249.7 min    13.3 s/solve   last T= 295.2 P=   8497
+     1130 solves    250.6 min    13.3 s/solve   last T= 237.4 P=   5171
+     1135 solves    251.8 min    13.3 s/solve   last T= 241.2 P=   8046
+     1140 solves    252.9 min    13.3 s/solve   last T= 238.5 P=   7276
+     1145 solves    254.0 min    13.3 s/solve   last T= 251.6 P=  10407
+     1150 solves    255.9 min    13.3 s/solve   last T= 264.6 P=  10248
+     1155 solves    256.9 min    13.3 s/solve   last T= 270.3 P=  10339
+     1160 solves    258.0 min    13.3 s/solve   last T= 275.3 P=   5948
+     1165 solves    259.1 min    13.3 s/solve   last T= 254.1 P=   7592
+     1170 solves    260.1 min    13.3 s/solve   last T= 254.1 P=   8645
+     1175 solves    261.6 min    13.4 s/solve   last T= 290.8 P=   9699
+     1180 solves    262.5 min    13.3 s/solve   last T= 291.3 P=  10267
+     1185 solves    263.5 min    13.3 s/solve   last T= 224.9 P=   5090
+     1190 solves    264.7 min    13.3 s/solve   last T= 252.4 P=   6701
+     1195 solves    265.7 min    13.3 s/solve   last T= 275.8 P=   6371
+     1200 solves    266.7 min    13.3 s/solve   last T= 244.3 P=  10374
+     1205 solves    267.9 min    13.3 s/solve   last T= 250.5 P=   6980
+     1210 solves    269.0 min    13.3 s/solve   last T= 257.7 P=   9941
+     1215 solves    270.1 min    13.3 s/solve   last T= 294.4 P=  10548
+     1220 solves    271.9 min    13.4 s/solve   last T= 241.6 P=   9426
+     1225 solves    272.9 min    13.4 s/solve   last T= 263.9 P=   5745
+     1230 solves    274.3 min    13.4 s/solve   last T= 281.3 P=   7981
+     1235 solves    275.4 min    13.4 s/solve   last T= 290.2 P=   8026
+     1240 solves    276.3 min    13.4 s/solve   last T= 248.7 P=   5733
+     1245 solves    278.0 min    13.4 s/solve   last T= 231.7 P=   8458
+     1250 solves    279.0 min    13.4 s/solve   last T= 252.3 P=   7103
+     1255 solves    280.0 min    13.4 s/solve   last T= 252.6 P=   9367
+     1260 solves    281.5 min    13.4 s/solve   last T= 239.7 P=   8182
+     1265 solves    282.4 min    13.4 s/solve   last T= 252.1 P=   6795
+     1270 solves    283.9 min    13.4 s/solve   last T= 272.9 P=   7516
+     1275 solves    285.0 min    13.4 s/solve   last T= 235.0 P=   9692
+     1280 solves    286.0 min    13.4 s/solve   last T= 274.4 P=   9073
+     1285 solves    287.3 min    13.4 s/solve   last T= 240.0 P=   5091
+     1290 solves    288.3 min    13.4 s/solve   last T= 242.2 P=   9403
+     1295 solves    289.5 min    13.4 s/solve   last T= 249.5 P=   8393
+     1300 solves    291.0 min    13.4 s/solve   last T= 254.4 P=   9189
+    100     1.5572e-01   373      510     2.4474e-01
+     1305 solves    291.9 min    13.4 s/solve   last T= 264.7 P=   6072
+     1310 solves    293.1 min    13.4 s/solve   last T= 265.4 P=   7676
+     1315 solves    294.0 min    13.4 s/solve   last T= 281.3 P=   7153
+     1320 solves    295.0 min    13.4 s/solve   last T= 262.1 P=  10510
+     1325 solves    296.2 min    13.4 s/solve   last T= 263.7 P=   8493
+     1330 solves    297.2 min    13.4 s/solve   last T= 242.8 P=   8244
+     1335 solves    298.1 min    13.4 s/solve   last T= 287.3 P=  10925
+     1340 solves    299.4 min    13.4 s/solve   last T= 266.3 P=   9018
+     1345 solves    300.4 min    13.4 s/solve   last T= 232.2 P=   7459
+     1350 solves    301.5 min    13.4 s/solve   last T= 244.9 P=   5786
+     1355 solves    304.1 min    13.5 s/solve   last T= 248.8 P=  10713
+     1360 solves    305.1 min    13.5 s/solve   last T= 267.8 P=   9706
+     1365 solves    306.3 min    13.5 s/solve   last T= 249.5 P=  10437
+     1370 solves    307.3 min    13.5 s/solve   last T= 258.9 P=  10546
+     1375 solves    308.2 min    13.5 s/solve   last T= 235.7 P=   5762
+     1380 solves    309.4 min    13.5 s/solve   last T= 245.2 P=   6642
+     1385 solves    310.4 min    13.4 s/solve   last T= 250.9 P=   5191
+     1390 solves    311.3 min    13.4 s/solve   last T= 255.9 P=   6314
+     1395 solves    312.7 min    13.4 s/solve   last T= 229.4 P=   6219
+     1400 solves    314.0 min    13.5 s/solve   last T= 249.2 P=   9625
+     1405 solves    315.7 min    13.5 s/solve   last T= 249.1 P=   8205
+     1410 solves    316.9 min    13.5 s/solve   last T= 255.7 P=   9738
+     1415 solves    317.9 min    13.5 s/solve   last T= 271.2 P=   5462
+     1420 solves    319.5 min    13.5 s/solve   last T= 264.8 P=   8998
+     1425 solves    320.6 min    13.5 s/solve   last T= 244.6 P=  10647
+     1430 solves    321.7 min    13.5 s/solve   last T= 273.2 P=  10622
+     1435 solves    323.6 min    13.5 s/solve   last T= 281.2 P=  10748
+     1440 solves    324.6 min    13.5 s/solve   last T= 286.8 P=   9288
+     1445 solves    326.0 min    13.5 s/solve   last T= 281.6 P=   9893
+     1450 solves    328.8 min    13.6 s/solve   last T= 245.4 P=  10116
+     1455 solves    330.0 min    13.6 s/solve   last T= 247.1 P=   9660
+     1460 solves    331.1 min    13.6 s/solve   last T= 276.5 P=   6829
+     1465 solves    332.5 min    13.6 s/solve   last T= 254.4 P=   8217
+     1470 solves    333.6 min    13.6 s/solve   last T= 236.2 P=   8245
+     1475 solves    335.7 min    13.7 s/solve   last T= 278.7 P=   7077
+     1480 solves    336.8 min    13.7 s/solve   last T= 238.6 P=   6248
+     1485 solves    337.8 min    13.6 s/solve   last T= 281.9 P=   7524
+     1490 solves    339.3 min    13.7 s/solve   last T= 281.2 P=   7422
+     1495 solves    340.3 min    13.7 s/solve   last T= 264.8 P=   8610
+     1500 solves    341.4 min    13.7 s/solve   last T= 241.3 P=   9922
+    125     3.5439e-02   457      609     2.3523e-01
+     1505 solves    343.3 min    13.7 s/solve   last T= 231.9 P=   5670
+     1510 solves    344.3 min    13.7 s/solve   last T= 276.3 P=  10561
+     1515 solves    345.8 min    13.7 s/solve   last T= 247.3 P=   8450
+     1520 solves    346.9 min    13.7 s/solve   last T= 247.8 P=  10821
+     1525 solves    347.9 min    13.7 s/solve   last T= 275.0 P=   8455
+     1530 solves    349.5 min    13.7 s/solve   last T= 257.9 P=   8031
+     1535 solves    350.6 min    13.7 s/solve   last T= 273.5 P=   9765
+     1540 solves    351.6 min    13.7 s/solve   last T= 250.5 P=   6146
+     1545 solves    353.8 min    13.7 s/solve   last T= 275.0 P=   6162
+     1550 solves    354.8 min    13.7 s/solve   last T= 236.1 P=   7592
+     1555 solves    355.8 min    13.7 s/solve   last T= 266.3 P=   6047
+     1560 solves    357.7 min    13.8 s/solve   last T= 278.8 P=   7035
+     1565 solves    358.8 min    13.8 s/solve   last T= 229.9 P=   7255
+     1570 solves    360.2 min    13.8 s/solve   last T= 250.2 P=   7535
+     1575 solves    361.2 min    13.8 s/solve   last T= 267.6 P=  10015
+     1580 solves    362.3 min    13.8 s/solve   last T= 253.6 P=   8579
+     1585 solves    363.8 min    13.8 s/solve   last T= 255.1 P=  10973
+     1590 solves    364.8 min    13.8 s/solve   last T= 269.6 P=   6287
+     1595 solves    365.7 min    13.8 s/solve   last T= 271.6 P=   6815
+     1600 solves    367.2 min    13.8 s/solve   last T= 250.6 P=   5954
+     1605 solves    368.1 min    13.8 s/solve   last T= 279.0 P=   7246
+     1610 solves    369.1 min    13.8 s/solve   last T= 274.1 P=  10105
+    140    -9.8402e-04   501      657     2.3076e-01
+
+==============================================================================
+RESULT
+==============================================================================
+  Live points       : 500
+  Dead points       : 657
+  Discarded points  : 455
+  Candidate evals   : 1112
+  Point evaluations : 1612  (= N_L + candidates)
+  Model solves      : 1612   (cache served 0 repeat call(s))
+  Failed solves     : 0  (counted as infeasible)
+  Sampling eff.     : 0.591  (accepted / candidates)
+  Worst live value  : -9.8402e-04  (VaR[G], feasible <= 0)
+  Live bounding box : T 239.3-278.9 C,  P 50.3-106.4 bar
+    vs interpolated : T 239.5-280 C,  P 51.7-106.9 bar   <- compare against THIS
+    vs cell centres : T 240-270 C,  P 55-105 bar   (the boundary lies between nodes, so overshooting these is correct)
+  Box edges touched : pressure low
+  Wall time         : 6.17 h  (22195 s)
+  Per solve         : 13.8 s
+==============================================================================
+
+--- MAGNUS run summary -------------------------------------
+initialisation     :      1.1 s   (excluded from the below)
+wall clock         :  22195.0 s   (369.9 min)
+  in HYSYS         :  22175.4 s   (99.9 %)
+  in sampler       :     19.7 s   (0.1 %)
+model evaluations  :     1612
+seconds per solve  :    13.76 s   (mean over 1612 solves)
+  seed             :   6778.8 s   (500 solves, 6773.0 s in HYSYS)
+  replacement      :  15416.3 s   (1112 solves, 15402.4 s in HYSYS)
+terminated         : converged  (0 live points uncertified)
+------------------------------------------------------------
+  saved             : /mnt/c/Users/asuna/OneDrive/Masaüstü/MagnusCodes/magnus_tp_output/magnus_tp_bridge_NL500.npz
+  saved             : /mnt/c/Users/asuna/OneDrive/Masaüstü/MagnusCodes/magnus_tp_output/magnus_tp_bridge_NL500.csv  (1612 rows)
+
+  Plot it with, on the Windows side:
+      python plot_design_space.py <this file>

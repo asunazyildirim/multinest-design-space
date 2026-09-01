@@ -1,0 +1,1231 @@
+console log        : c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_run_serial.log
+Found ROT entry: c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\methanol.hsc
+Connected to HYSYS case
+Initialising HYSYS objects
+modal popups minimized for unattended run
+case               : c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\methanol.hsc
+mode               : serial (one HYSYS instance)
+initialisation     : 0.4 s
+live snapshot      : c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_live_serial.png  (every 60 s)
+
+  ════════════════════════════════════════════════════════════════════════════════════
+  NESTED SAMPLING
+  ════════════════════════════════════════════════════════════════════════════════════
+    Design space        : DesignSpace(D=2, temperature=[210, 300], pressure=[5000, 11000])
+    Dimension           : D = 2
+    Live points         : 500
+    Uncertainty         : WeightedScenarios(N=1, weight_range=[1, 1])
+                          K = 1 model runs per estimate
+    Criterion           : VaR — feasible when VaR[G] <= 0
+    Mode separation     : on, every 15 sweeps, max 100 modes
+    Ellipsoids          : ef = 0.8, min_pt = 6
+    Termination         : all live points VaR[G] <= 0  (alpha = 0)
+  ════════════════════════════════════════════════════════════════════════════════════
+  Initialising live points: 500 to evaluate
+    1/500   21 s elapsed, ~10382 s left
+    2/500   32 s elapsed, ~8036 s left
+    3/500   42 s elapsed, ~6926 s left
+    4/500   53 s elapsed, ~6530 s left
+    5/500   61 s elapsed, ~6088 s left
+    6/500   71 s elapsed, ~5826 s left
+    7/500   81 s elapsed, ~5725 s left
+    8/500   87 s elapsed, ~5358 s left
+    9/500   96 s elapsed, ~5257 s left
+    10/500   106 s elapsed, ~5185 s left
+    11/500   117 s elapsed, ~5204 s left
+    12/500   128 s elapsed, ~5206 s left
+    13/500   143 s elapsed, ~5343 s left
+    14/500   157 s elapsed, ~5434 s left
+    15/500   169 s elapsed, ~5473 s left
+    16/500   180 s elapsed, ~5453 s left
+    17/500   191 s elapsed, ~5434 s left
+    18/500   201 s elapsed, ~5372 s left
+    19/500   213 s elapsed, ~5394 s left
+    20/500   228 s elapsed, ~5464 s left
+    21/500   240 s elapsed, ~5480 s left
+    22/500   249 s elapsed, ~5405 s left
+    23/500   258 s elapsed, ~5352 s left
+    24/500   266 s elapsed, ~5276 s left
+    25/500   272 s elapsed, ~5162 s left
+    26/500   280 s elapsed, ~5102 s left
+    27/500   290 s elapsed, ~5078 s left
+    28/500   301 s elapsed, ~5072 s left
+    29/500   311 s elapsed, ~5054 s left
+    30/500   322 s elapsed, ~5040 s left
+    31/500   330 s elapsed, ~4998 s left
+    32/500   341 s elapsed, ~4988 s left
+    33/500   351 s elapsed, ~4962 s left
+    34/500   360 s elapsed, ~4939 s left
+    35/500   368 s elapsed, ~4894 s left
+    36/500   379 s elapsed, ~4888 s left
+    37/500   390 s elapsed, ~4874 s left
+    38/500   399 s elapsed, ~4854 s left
+    39/500   410 s elapsed, ~4846 s left
+    40/500   420 s elapsed, ~4835 s left
+    41/500   431 s elapsed, ~4822 s left
+    42/500   444 s elapsed, ~4839 s left
+    43/500   454 s elapsed, ~4825 s left
+    44/500   464 s elapsed, ~4813 s left
+    45/500   475 s elapsed, ~4799 s left
+    46/500   488 s elapsed, ~4819 s left
+    47/500   499 s elapsed, ~4808 s left
+    48/500   510 s elapsed, ~4804 s left
+    49/500   523 s elapsed, ~4812 s left
+    50/500   534 s elapsed, ~4807 s left
+    51/500   542 s elapsed, ~4769 s left
+    52/500   550 s elapsed, ~4738 s left
+    53/500   559 s elapsed, ~4715 s left
+    54/500   571 s elapsed, ~4714 s left
+    55/500   580 s elapsed, ~4694 s left
+    56/500   589 s elapsed, ~4672 s left
+    57/500   597 s elapsed, ~4643 s left
+    58/500   605 s elapsed, ~4608 s left
+    59/500   615 s elapsed, ~4593 s left
+    60/500   624 s elapsed, ~4573 s left
+    61/500   631 s elapsed, ~4542 s left
+    62/500   640 s elapsed, ~4522 s left
+    63/500   654 s elapsed, ~4535 s left
+    64/500   668 s elapsed, ~4550 s left
+    65/500   678 s elapsed, ~4537 s left
+    66/500   687 s elapsed, ~4521 s left
+    67/500   697 s elapsed, ~4504 s left
+    68/500   706 s elapsed, ~4486 s left
+    69/500   715 s elapsed, ~4469 s left
+    70/500   722 s elapsed, ~4433 s left
+    71/500   730 s elapsed, ~4408 s left
+    72/500   742 s elapsed, ~4413 s left
+    73/500   751 s elapsed, ~4391 s left
+    74/500   759 s elapsed, ~4368 s left
+    75/500   768 s elapsed, ~4354 s left
+    76/500   778 s elapsed, ~4339 s left
+    77/500   787 s elapsed, ~4322 s left
+    78/500   796 s elapsed, ~4309 s left
+    79/500   806 s elapsed, ~4293 s left
+    80/500   813 s elapsed, ~4270 s left
+    81/500   822 s elapsed, ~4254 s left
+    82/500   832 s elapsed, ~4241 s left
+    83/500   841 s elapsed, ~4226 s left
+    84/500   853 s elapsed, ~4225 s left
+    85/500   862 s elapsed, ~4210 s left
+    86/500   871 s elapsed, ~4193 s left
+    87/500   879 s elapsed, ~4174 s left
+    88/500   888 s elapsed, ~4160 s left
+    89/500   898 s elapsed, ~4146 s left
+    90/500   907 s elapsed, ~4131 s left
+    91/500   916 s elapsed, ~4118 s left
+    92/500   925 s elapsed, ~4101 s left
+    93/500   934 s elapsed, ~4089 s left
+    94/500   942 s elapsed, ~4070 s left
+    95/500   952 s elapsed, ~4060 s left
+    96/500   961 s elapsed, ~4044 s left
+    97/500   972 s elapsed, ~4037 s left
+    98/500   980 s elapsed, ~4019 s left
+    99/500   989 s elapsed, ~4006 s left
+    100/500   999 s elapsed, ~3995 s left
+    101/500   1008 s elapsed, ~3982 s left
+    102/500   1018 s elapsed, ~3971 s left
+    103/500   1026 s elapsed, ~3955 s left
+    104/500   1034 s elapsed, ~3939 s left
+    105/500   1044 s elapsed, ~3927 s left
+    106/500   1054 s elapsed, ~3917 s left
+    107/500   1063 s elapsed, ~3906 s left
+    108/500   1072 s elapsed, ~3891 s left
+    109/500   1079 s elapsed, ~3870 s left
+    110/500   1087 s elapsed, ~3854 s left
+    111/500   1097 s elapsed, ~3845 s left
+    112/500   1107 s elapsed, ~3833 s left
+    113/500   1115 s elapsed, ~3820 s left
+    114/500   1124 s elapsed, ~3804 s left
+    115/500   1134 s elapsed, ~3796 s left
+    116/500   1142 s elapsed, ~3782 s left
+    117/500   1153 s elapsed, ~3774 s left
+    118/500   1160 s elapsed, ~3755 s left
+    119/500   1169 s elapsed, ~3742 s left
+    120/500   1178 s elapsed, ~3732 s left
+    121/500   1187 s elapsed, ~3719 s left
+    122/500   1197 s elapsed, ~3709 s left
+    123/500   1206 s elapsed, ~3697 s left
+    124/500   1215 s elapsed, ~3685 s left
+    125/500   1223 s elapsed, ~3669 s left
+    126/500   1230 s elapsed, ~3651 s left
+    127/500   1238 s elapsed, ~3636 s left
+    128/500   1247 s elapsed, ~3625 s left
+    129/500   1254 s elapsed, ~3607 s left
+    130/500   1262 s elapsed, ~3591 s left
+    131/500   1272 s elapsed, ~3582 s left
+    132/500   1279 s elapsed, ~3565 s left
+    133/500   1288 s elapsed, ~3554 s left
+    134/500   1297 s elapsed, ~3543 s left
+    135/500   1306 s elapsed, ~3532 s left
+    136/500   1316 s elapsed, ~3521 s left
+    137/500   1325 s elapsed, ~3510 s left
+    138/500   1333 s elapsed, ~3497 s left
+    139/500   1344 s elapsed, ~3491 s left
+    140/500   1353 s elapsed, ~3478 s left
+    141/500   1361 s elapsed, ~3465 s left
+    142/500   1368 s elapsed, ~3448 s left
+    143/500   1377 s elapsed, ~3437 s left
+    144/500   1387 s elapsed, ~3428 s left
+    145/500   1395 s elapsed, ~3416 s left
+    146/500   1402 s elapsed, ~3399 s left
+    147/500   1410 s elapsed, ~3385 s left
+    148/500   1418 s elapsed, ~3373 s left
+    149/500   1428 s elapsed, ~3363 s left
+    150/500   1437 s elapsed, ~3352 s left
+    151/500   1446 s elapsed, ~3343 s left
+    152/500   1454 s elapsed, ~3328 s left
+    153/500   1461 s elapsed, ~3314 s left
+    154/500   1470 s elapsed, ~3302 s left
+    155/500   1477 s elapsed, ~3287 s left
+    156/500   1482 s elapsed, ~3268 s left
+    157/500   1489 s elapsed, ~3253 s left
+    158/500   1497 s elapsed, ~3241 s left
+    159/500   1507 s elapsed, ~3231 s left
+    160/500   1516 s elapsed, ~3222 s left
+    161/500   1525 s elapsed, ~3211 s left
+    162/500   1532 s elapsed, ~3197 s left
+    163/500   1539 s elapsed, ~3183 s left
+    164/500   1548 s elapsed, ~3171 s left
+    165/500   1557 s elapsed, ~3162 s left
+    166/500   1567 s elapsed, ~3152 s left
+    167/500   1576 s elapsed, ~3143 s left
+    168/500   1582 s elapsed, ~3127 s left
+    169/500   1589 s elapsed, ~3111 s left
+    170/500   1597 s elapsed, ~3100 s left
+    171/500   1604 s elapsed, ~3086 s left
+    172/500   1613 s elapsed, ~3077 s left
+    173/500   1622 s elapsed, ~3066 s left
+    174/500   1630 s elapsed, ~3055 s left
+    175/500   1639 s elapsed, ~3044 s left
+    176/500   1647 s elapsed, ~3033 s left
+    177/500   1657 s elapsed, ~3023 s left
+    178/500   1665 s elapsed, ~3011 s left
+    179/500   1673 s elapsed, ~3000 s left
+    180/500   1680 s elapsed, ~2986 s left
+    181/500   1686 s elapsed, ~2972 s left
+    182/500   1696 s elapsed, ~2964 s left
+    183/500   1703 s elapsed, ~2949 s left
+    184/500   1713 s elapsed, ~2942 s left
+    185/500   1723 s elapsed, ~2934 s left
+    186/500   1732 s elapsed, ~2924 s left
+    187/500   1740 s elapsed, ~2913 s left
+    188/500   1747 s elapsed, ~2899 s left
+    189/500   1756 s elapsed, ~2889 s left
+    190/500   1763 s elapsed, ~2876 s left
+    191/500   1773 s elapsed, ~2868 s left
+    192/500   1781 s elapsed, ~2858 s left
+    193/500   1791 s elapsed, ~2848 s left
+    194/500   1799 s elapsed, ~2838 s left
+    195/500   1807 s elapsed, ~2826 s left
+    196/500   1816 s elapsed, ~2816 s left
+    197/500   1824 s elapsed, ~2806 s left
+    198/500   1832 s elapsed, ~2795 s left
+    199/500   1839 s elapsed, ~2782 s left
+    200/500   1847 s elapsed, ~2770 s left
+    201/500   1856 s elapsed, ~2761 s left
+    202/500   1865 s elapsed, ~2752 s left
+    203/500   1875 s elapsed, ~2744 s left
+    204/500   1884 s elapsed, ~2734 s left
+    205/500   1892 s elapsed, ~2723 s left
+    206/500   1902 s elapsed, ~2714 s left
+    207/500   1911 s elapsed, ~2704 s left
+    208/500   1919 s elapsed, ~2694 s left
+    209/500   1927 s elapsed, ~2683 s left
+    210/500   1933 s elapsed, ~2670 s left
+    211/500   1946 s elapsed, ~2665 s left
+    212/500   1956 s elapsed, ~2657 s left
+    213/500   1964 s elapsed, ~2647 s left
+    214/500   1974 s elapsed, ~2638 s left
+    215/500   1983 s elapsed, ~2628 s left
+    216/500   1992 s elapsed, ~2620 s left
+    217/500   2002 s elapsed, ~2611 s left
+    218/500   2011 s elapsed, ~2601 s left
+    219/500   2019 s elapsed, ~2590 s left
+    220/500   2027 s elapsed, ~2580 s left
+    221/500   2035 s elapsed, ~2569 s left
+    222/500   2044 s elapsed, ~2560 s left
+    223/500   2052 s elapsed, ~2549 s left
+    224/500   2060 s elapsed, ~2539 s left
+    225/500   2068 s elapsed, ~2527 s left
+    226/500   2075 s elapsed, ~2515 s left
+    227/500   2085 s elapsed, ~2508 s left
+    228/500   2094 s elapsed, ~2498 s left
+    229/500   2103 s elapsed, ~2489 s left
+    230/500   2112 s elapsed, ~2479 s left
+    231/500   2122 s elapsed, ~2471 s left
+    232/500   2132 s elapsed, ~2462 s left
+    233/500   2141 s elapsed, ~2453 s left
+    234/500   2149 s elapsed, ~2442 s left
+    235/500   2158 s elapsed, ~2434 s left
+    236/500   2166 s elapsed, ~2423 s left
+    237/500   2175 s elapsed, ~2413 s left
+    238/500   2184 s elapsed, ~2404 s left
+    239/500   2192 s elapsed, ~2394 s left
+    240/500   2199 s elapsed, ~2382 s left
+    241/500   2205 s elapsed, ~2370 s left
+    242/500   2213 s elapsed, ~2359 s left
+    243/500   2221 s elapsed, ~2349 s left
+    244/500   2230 s elapsed, ~2339 s left
+    245/500   2240 s elapsed, ~2332 s left
+    246/500   2249 s elapsed, ~2322 s left
+    247/500   2259 s elapsed, ~2314 s left
+    248/500   2267 s elapsed, ~2304 s left
+    249/500   2277 s elapsed, ~2296 s left
+    250/500   2286 s elapsed, ~2286 s left
+    251/500   2294 s elapsed, ~2276 s left
+    252/500   2305 s elapsed, ~2268 s left
+    253/500   2315 s elapsed, ~2260 s left
+    254/500   2323 s elapsed, ~2250 s left
+    255/500   2331 s elapsed, ~2240 s left
+    256/500   2339 s elapsed, ~2230 s left
+    257/500   2348 s elapsed, ~2220 s left
+    258/500   2355 s elapsed, ~2209 s left
+    259/500   2365 s elapsed, ~2200 s left
+    260/500   2373 s elapsed, ~2191 s left
+    261/500   2382 s elapsed, ~2181 s left
+    262/500   2391 s elapsed, ~2172 s left
+    263/500   2400 s elapsed, ~2163 s left
+    264/500   2410 s elapsed, ~2154 s left
+    265/500   2417 s elapsed, ~2143 s left
+    266/500   2424 s elapsed, ~2132 s left
+    267/500   2434 s elapsed, ~2124 s left
+    268/500   2444 s elapsed, ~2115 s left
+    269/500   2453 s elapsed, ~2106 s left
+    270/500   2462 s elapsed, ~2097 s left
+    271/500   2474 s elapsed, ~2091 s left
+    272/500   2485 s elapsed, ~2083 s left
+    273/500   2496 s elapsed, ~2075 s left
+    274/500   2506 s elapsed, ~2067 s left
+    275/500   2515 s elapsed, ~2057 s left
+    276/500   2524 s elapsed, ~2048 s left
+    277/500   2534 s elapsed, ~2040 s left
+    278/500   2546 s elapsed, ~2033 s left
+    279/500   2557 s elapsed, ~2026 s left
+    280/500   2567 s elapsed, ~2017 s left
+    281/500   2576 s elapsed, ~2008 s left
+    282/500   2585 s elapsed, ~1998 s left
+    283/500   2594 s elapsed, ~1989 s left
+    284/500   2601 s elapsed, ~1978 s left
+    285/500   2609 s elapsed, ~1968 s left
+    286/500   2616 s elapsed, ~1957 s left
+    287/500   2626 s elapsed, ~1949 s left
+    288/500   2636 s elapsed, ~1940 s left
+    289/500   2644 s elapsed, ~1930 s left
+    290/500   2652 s elapsed, ~1921 s left
+    291/500   2664 s elapsed, ~1913 s left
+    292/500   2672 s elapsed, ~1903 s left
+    293/500   2680 s elapsed, ~1894 s left
+    294/500   2689 s elapsed, ~1884 s left
+    295/500   2698 s elapsed, ~1875 s left
+    296/500   2707 s elapsed, ~1865 s left
+    297/500   2715 s elapsed, ~1855 s left
+    298/500   2724 s elapsed, ~1847 s left
+    299/500   2732 s elapsed, ~1837 s left
+    300/500   2742 s elapsed, ~1828 s left
+    301/500   2749 s elapsed, ~1818 s left
+    302/500   2760 s elapsed, ~1809 s left
+    303/500   2768 s elapsed, ~1800 s left
+    304/500   2774 s elapsed, ~1789 s left
+    305/500   2783 s elapsed, ~1780 s left
+    306/500   2791 s elapsed, ~1770 s left
+    307/500   2800 s elapsed, ~1760 s left
+    308/500   2808 s elapsed, ~1750 s left
+    309/500   2818 s elapsed, ~1742 s left
+    310/500   2826 s elapsed, ~1732 s left
+    311/500   2835 s elapsed, ~1723 s left
+    312/500   2843 s elapsed, ~1713 s left
+    313/500   2850 s elapsed, ~1703 s left
+    314/500   2858 s elapsed, ~1693 s left
+    315/500   2865 s elapsed, ~1683 s left
+    316/500   2874 s elapsed, ~1673 s left
+    317/500   2883 s elapsed, ~1664 s left
+    318/500   2893 s elapsed, ~1656 s left
+    319/500   2904 s elapsed, ~1648 s left
+    320/500   2913 s elapsed, ~1638 s left
+    321/500   2922 s elapsed, ~1630 s left
+    322/500   2933 s elapsed, ~1621 s left
+    323/500   2940 s elapsed, ~1611 s left
+    324/500   2948 s elapsed, ~1601 s left
+    325/500   2957 s elapsed, ~1592 s left
+    326/500   2965 s elapsed, ~1582 s left
+    327/500   2976 s elapsed, ~1575 s left
+    328/500   2984 s elapsed, ~1565 s left
+    329/500   2993 s elapsed, ~1555 s left
+    330/500   3001 s elapsed, ~1546 s left
+    331/500   3009 s elapsed, ~1537 s left
+    332/500   3018 s elapsed, ~1527 s left
+    333/500   3028 s elapsed, ~1519 s left
+    334/500   3037 s elapsed, ~1510 s left
+    335/500   3047 s elapsed, ~1501 s left
+    336/500   3056 s elapsed, ~1492 s left
+    337/500   3065 s elapsed, ~1483 s left
+    338/500   3074 s elapsed, ~1473 s left
+    339/500   3084 s elapsed, ~1465 s left
+    340/500   3093 s elapsed, ~1456 s left
+    341/500   3101 s elapsed, ~1446 s left
+    342/500   3110 s elapsed, ~1437 s left
+    343/500   3119 s elapsed, ~1428 s left
+    344/500   3125 s elapsed, ~1417 s left
+    345/500   3135 s elapsed, ~1409 s left
+    346/500   3149 s elapsed, ~1401 s left
+    347/500   3156 s elapsed, ~1391 s left
+    348/500   3163 s elapsed, ~1382 s left
+    349/500   3173 s elapsed, ~1373 s left
+    350/500   3181 s elapsed, ~1363 s left
+    351/500   3189 s elapsed, ~1354 s left
+    352/500   3194 s elapsed, ~1343 s left
+    353/500   3201 s elapsed, ~1333 s left
+    354/500   3207 s elapsed, ~1323 s left
+    355/500   3216 s elapsed, ~1314 s left
+    356/500   3224 s elapsed, ~1304 s left
+    357/500   3233 s elapsed, ~1295 s left
+    358/500   3241 s elapsed, ~1285 s left
+    359/500   3249 s elapsed, ~1276 s left
+    360/500   3256 s elapsed, ~1266 s left
+    361/500   3264 s elapsed, ~1257 s left
+    362/500   3274 s elapsed, ~1248 s left
+    363/500   3282 s elapsed, ~1239 s left
+    364/500   3290 s elapsed, ~1229 s left
+    365/500   3299 s elapsed, ~1220 s left
+    366/500   3307 s elapsed, ~1211 s left
+    367/500   3317 s elapsed, ~1202 s left
+    368/500   3331 s elapsed, ~1195 s left
+    369/500   3342 s elapsed, ~1187 s left
+    370/500   3351 s elapsed, ~1178 s left
+    371/500   3360 s elapsed, ~1168 s left
+    372/500   3371 s elapsed, ~1160 s left
+    373/500   3382 s elapsed, ~1151 s left
+    374/500   3390 s elapsed, ~1142 s left
+    375/500   3400 s elapsed, ~1133 s left
+    376/500   3411 s elapsed, ~1125 s left
+    377/500   3421 s elapsed, ~1116 s left
+    378/500   3430 s elapsed, ~1107 s left
+    379/500   3439 s elapsed, ~1098 s left
+    380/500   3449 s elapsed, ~1089 s left
+    381/500   3460 s elapsed, ~1081 s left
+    382/500   3468 s elapsed, ~1071 s left
+    383/500   3478 s elapsed, ~1063 s left
+    384/500   3487 s elapsed, ~1053 s left
+    385/500   3500 s elapsed, ~1045 s left
+    386/500   3509 s elapsed, ~1036 s left
+    387/500   3517 s elapsed, ~1027 s left
+    388/500   3527 s elapsed, ~1018 s left
+    389/500   3536 s elapsed, ~1009 s left
+    390/500   3544 s elapsed, ~1000 s left
+    391/500   3554 s elapsed, ~991 s left
+    392/500   3561 s elapsed, ~981 s left
+    393/500   3572 s elapsed, ~973 s left
+    394/500   3583 s elapsed, ~964 s left
+    395/500   3592 s elapsed, ~955 s left
+    396/500   3600 s elapsed, ~946 s left
+    397/500   3610 s elapsed, ~937 s left
+    398/500   3620 s elapsed, ~928 s left
+    399/500   3629 s elapsed, ~919 s left
+    400/500   3637 s elapsed, ~909 s left
+    401/500   3645 s elapsed, ~900 s left
+    402/500   3654 s elapsed, ~891 s left
+    403/500   3663 s elapsed, ~882 s left
+    404/500   3671 s elapsed, ~872 s left
+    405/500   3679 s elapsed, ~863 s left
+    406/500   3689 s elapsed, ~854 s left
+    407/500   3699 s elapsed, ~845 s left
+    408/500   3707 s elapsed, ~836 s left
+    409/500   3718 s elapsed, ~827 s left
+    410/500   3725 s elapsed, ~818 s left
+    411/500   3733 s elapsed, ~808 s left
+    412/500   3746 s elapsed, ~800 s left
+    413/500   3760 s elapsed, ~792 s left
+    414/500   3769 s elapsed, ~783 s left
+    415/500   3778 s elapsed, ~774 s left
+    416/500   3788 s elapsed, ~765 s left
+    417/500   3798 s elapsed, ~756 s left
+    418/500   3806 s elapsed, ~747 s left
+    419/500   3815 s elapsed, ~737 s left
+    420/500   3823 s elapsed, ~728 s left
+    421/500   3832 s elapsed, ~719 s left
+    422/500   3841 s elapsed, ~710 s left
+    423/500   3848 s elapsed, ~700 s left
+    424/500   3857 s elapsed, ~691 s left
+    425/500   3865 s elapsed, ~682 s left
+    426/500   3874 s elapsed, ~673 s left
+    427/500   3884 s elapsed, ~664 s left
+    428/500   3894 s elapsed, ~655 s left
+    429/500   3903 s elapsed, ~646 s left
+    430/500   3912 s elapsed, ~637 s left
+    431/500   3921 s elapsed, ~628 s left
+    432/500   3931 s elapsed, ~619 s left
+    433/500   3940 s elapsed, ~610 s left
+    434/500   3951 s elapsed, ~601 s left
+    435/500   3961 s elapsed, ~592 s left
+    436/500   3972 s elapsed, ~583 s left
+    437/500   3980 s elapsed, ~574 s left
+    438/500   3989 s elapsed, ~565 s left
+    439/500   3996 s elapsed, ~555 s left
+    440/500   4005 s elapsed, ~546 s left
+    441/500   4015 s elapsed, ~537 s left
+    442/500   4022 s elapsed, ~528 s left
+    443/500   4031 s elapsed, ~519 s left
+    444/500   4043 s elapsed, ~510 s left
+    445/500   4054 s elapsed, ~501 s left
+    446/500   4064 s elapsed, ~492 s left
+    447/500   4073 s elapsed, ~483 s left
+    448/500   4083 s elapsed, ~474 s left
+    449/500   4093 s elapsed, ~465 s left
+    450/500   4102 s elapsed, ~456 s left
+    451/500   4114 s elapsed, ~447 s left
+    452/500   4121 s elapsed, ~438 s left
+    453/500   4131 s elapsed, ~429 s left
+    454/500   4141 s elapsed, ~420 s left
+    455/500   4150 s elapsed, ~410 s left
+    456/500   4160 s elapsed, ~401 s left
+    457/500   4171 s elapsed, ~392 s left
+    458/500   4181 s elapsed, ~383 s left
+    459/500   4194 s elapsed, ~375 s left
+    460/500   4205 s elapsed, ~366 s left
+    461/500   4217 s elapsed, ~357 s left
+    462/500   4229 s elapsed, ~348 s left
+    463/500   4240 s elapsed, ~339 s left
+    464/500   4252 s elapsed, ~330 s left
+    465/500   4264 s elapsed, ~321 s left
+    466/500   4276 s elapsed, ~312 s left
+    467/500   4287 s elapsed, ~303 s left
+    468/500   4299 s elapsed, ~294 s left
+    469/500   4310 s elapsed, ~285 s left
+    470/500   4321 s elapsed, ~276 s left
+    471/500   4334 s elapsed, ~267 s left
+    472/500   4351 s elapsed, ~258 s left
+    473/500   4364 s elapsed, ~249 s left
+    474/500   4372 s elapsed, ~240 s left
+    475/500   4381 s elapsed, ~231 s left
+    476/500   4392 s elapsed, ~221 s left
+    477/500   4401 s elapsed, ~212 s left
+    478/500   4412 s elapsed, ~203 s left
+    479/500   4423 s elapsed, ~194 s left
+    480/500   4436 s elapsed, ~185 s left
+    481/500   4455 s elapsed, ~176 s left
+    482/500   4464 s elapsed, ~167 s left
+    483/500   4472 s elapsed, ~157 s left
+    484/500   4481 s elapsed, ~148 s left
+    485/500   4489 s elapsed, ~139 s left
+    486/500   4500 s elapsed, ~130 s left
+    487/500   4508 s elapsed, ~120 s left
+    488/500   4516 s elapsed, ~111 s left
+    489/500   4525 s elapsed, ~102 s left
+    490/500   4533 s elapsed, ~93 s left
+    491/500   4540 s elapsed, ~83 s left
+    492/500   4550 s elapsed, ~74 s left
+    493/500   4558 s elapsed, ~65 s left
+    494/500   4567 s elapsed, ~55 s left
+    495/500   4576 s elapsed, ~46 s left
+    496/500   4585 s elapsed, ~37 s left
+    497/500   4594 s elapsed, ~28 s left
+    498/500   4603 s elapsed, ~18 s left
+    499/500   4614 s elapsed, ~9 s left
+    500/500   4623 s elapsed, ~0 s left
+  Live points ready in 4623.5 s
+
+
+  Progress table — one row per accepted replacement, blocked by sweep:
+    sweep     sweep counter; blank = same sweep as the row above
+    repl      accepted replacements so far, = dead points
+    mode      mode label · 'done' = finished modes pooled · 'Σ a/t' = all modes, a of t active
+    live      live points in this row's scope (= feas + left)
+    feas      of those, certified: VaR[G] <= 0
+    left      still uncertified; the run stops at 0 on the Σ row
+    feas%     feas / live
+    VaR[G]    worst live point here; on a mode row, the point this step evicted
+    ell       ellipsoids covering this mode ('—' once done)
+    tries     candidates drawn for this replacement
+    elapsed   wall time since the run started
+    note      why a mode stopped, and at which sweep
+
+     sweep   repl  mode   live   feas   left   feas%      VaR[G]   ell  tries  elapsed  note
+  ──────────────────────────────────────────────────────────────────────────────────────────
+         1      1     1    500    128    372   25.6%       11.32     6      1  1:17:14
+         2      2     1    500    128    372   25.6%       11.31     6      1  1:17:21
+         3      3     1    500    129    371   25.8%        11.3     6      1  1:17:32
+         4      4     1    500    130    370   26.0%       11.15     6      1  1:17:44
+         5      5     1    500    130    370   26.0%       11.05     6      1  1:17:52
+         6      6     1    500    130    370   26.0%       10.81     6      1  1:18:00
+         7      7     1    500    130    370   26.0%       9.967     6      1  1:18:08
+         8      8     1    500    130    370   26.0%       9.774     6      1  1:18:19
+         9      9     1    500    131    369   26.2%       9.605     6      1  1:18:28
+        10     10     1    500    131    369   26.2%        9.57    11      1  1:18:36
+        11     11     1    500    132    368   26.4%       9.534    11      1  1:18:46
+        12     12     1    500    132    368   26.4%       9.522    11      2  1:19:03
+        13     13     1    500    132    368   26.4%       9.448    11      1  1:19:10
+        14     14     1    500    132    368   26.4%       9.299    11      1  1:19:18
+        15     15     1    500    132    368   26.4%       9.262    11      1  1:19:28
+        16     16     1    500    132    368   26.4%       9.045    11      1  1:19:38
+        17     17     1    500    133    367   26.6%        9.03    11      1  1:19:48
+        18     18     1    500    133    367   26.6%       8.864    11      1  1:19:55
+        19     19     1    500    133    367   26.6%        8.83    11      1  1:20:03
+        20     20     1    500    133    367   26.6%       8.825    11      1  1:20:12
+        21     21     1    500    133    367   26.6%       8.808    11      1  1:20:19
+        22     22     1    500    134    366   26.8%       8.783    11      1  1:20:28
+        23     23     1    500    134    366   26.8%       8.768    11      1  1:20:38
+        24     24     1    500    135    365   27.0%       8.653    11      1  1:20:46
+        25     25     1    500    135    365   27.0%       8.535    11      1  1:20:56
+        26     26     1    500    135    365   27.0%        8.45    11      1  1:21:04
+        27     27     1    500    136    364   27.2%       8.251    11      1  1:21:14
+        28     28     1    500    136    364   27.2%       8.184    11      1  1:21:23
+        29     29     1    500    136    364   27.2%       8.136    11      1  1:21:31
+        30     30     1    500    137    363   27.4%       8.089    11      1  1:21:41
+        31     31     1    500    137    363   27.4%       8.081    11      1  1:21:47
+        32     32     1    500    137    363   27.4%       8.042    11      1  1:21:53
+        33     33     1    500    137    363   27.4%       7.989    11      1  1:22:02
+        34     34     1    500    137    363   27.4%       7.903    11      1  1:22:11
+        35     35     1    500    138    362   27.6%       7.891    11      1  1:22:24
+        36     36     1    500    138    362   27.6%       7.842    11      1  1:22:33
+        37     37     1    500    139    361   27.8%       7.713    11      1  1:22:44
+        38     38     1    500    139    361   27.8%       7.669    11      1  1:22:52
+        39     39     1    500    139    361   27.8%       7.644    11      1  1:23:01
+        40     40     1    500    139    361   27.8%       7.432    11      1  1:23:11
+        41     41     1    500    139    361   27.8%       7.405    11      1  1:23:19
+        42     42     1    500    140    360   28.0%        7.35    11      1  1:23:28
+        43     43     1    500    140    360   28.0%       7.306    11      1  1:23:36
+        44     44     1    500    140    360   28.0%       7.198    11      1  1:23:44
+        45     45     1    500    141    359   28.2%       7.164    11      2  1:24:02
+        46     46     1    500    142    358   28.4%       7.149    11      1  1:24:10
+        47     47     1    500    142    358   28.4%       6.909    11      1  1:24:17
+        48     48     1    500    142    358   28.4%       6.849    11      1  1:24:25
+        49     49     1    500    142    358   28.4%        6.66    11      1  1:24:33
+        50     50     1    500    143    357   28.6%         6.6    11      1  1:24:43
+        51     51     1    500    143    357   28.6%       6.471    11      1  1:24:50
+        52     52     1    500    144    356   28.8%       6.436    11      1  1:25:00
+        53     53     1    500    144    356   28.8%       6.299    11      1  1:25:09
+        54     54     1    500    145    355   29.0%       6.261    11      1  1:25:19
+        55     55     1    500    146    354   29.2%       6.204    11      1  1:25:27
+        56     56     1    500    147    353   29.4%       6.154    11      2  1:25:47
+        57     57     1    500    148    352   29.6%       6.047    11      1  1:25:56
+        58     58     1    500    149    351   29.8%       6.041    11      1  1:26:04
+        59     59     1    500    149    351   29.8%       5.854    11      1  1:26:12
+        60     60     1    500    149    351   29.8%       5.825    11      1  1:26:19
+        61     61     1    500    150    350   30.0%       5.804    11      1  1:26:28
+        62     62     1    500    150    350   30.0%       5.792    11      1  1:26:39
+        63     63     1    500    151    349   30.2%       5.778    11      1  1:26:51
+        64     64     1    500    151    349   30.2%       5.769    11      1  1:26:59
+        65     65     1    500    151    349   30.2%       5.579    11      2  1:27:17
+        66     66     1    500    151    349   30.2%       5.471    11      1  1:27:23
+        67     67     1    500    151    349   30.2%       5.454    18      1  1:27:32
+        68     68     1    500    151    349   30.2%       5.447    18      1  1:27:42
+        69     69     1    500    151    349   30.2%        5.35    18      1  1:27:52
+        70     70     1    500    151    349   30.2%       5.346    18      1  1:28:00
+        71     71     1    500    152    348   30.4%       5.339    18      1  1:28:09
+        72     72     1    500    153    347   30.6%       5.201    18      1  1:28:18
+        73     73     1    500    154    346   30.8%       5.011    18      1  1:28:26
+        74     74     1    500    155    345   31.0%       5.008    18      1  1:28:37
+        75     75     1    500    155    345   31.0%       5.004    18      1  1:28:47
+        76     76     1    500    156    344   31.2%           5    18      1  1:28:59
+        77     77     1    500    156    344   31.2%        4.97    18      1  1:29:06
+        78     78     1    500    157    343   31.4%       4.878    18      1  1:29:16
+        79     79     1    500    157    343   31.4%       4.852    18      1  1:29:27
+        80     80     1    500    158    342   31.6%       4.821    18      1  1:29:39
+        81     81     1    500    159    341   31.8%       4.769    18      1  1:29:50
+        82     82     1    500    159    341   31.8%        4.75    18      1  1:30:00
+        83     83     1    500    159    341   31.8%       4.662    18      1  1:30:09
+        84     84     1    500    159    341   31.8%       4.659    18      1  1:30:17
+        85     85     1    500    159    341   31.8%       4.619    18      1  1:30:27
+        86     86     1    500    159    341   31.8%        4.56    18      1  1:30:37
+        87     87     1    500    159    341   31.8%       4.501    18      1  1:30:46
+        88     88     1    500    160    340   32.0%       4.423    18      1  1:30:55
+        89     89     1    500    161    339   32.2%       4.408    18      1  1:31:03
+        90     90     1    500    161    339   32.2%        4.39    18      1  1:31:12
+        91     91     1    500    161    339   32.2%       4.332    18      1  1:31:21
+        92     92     1    500    161    339   32.2%       4.318    18      1  1:31:30
+        93     93     1    500    161    339   32.2%       4.215    18      1  1:31:39
+        94     94     1    500    162    338   32.4%       4.205    18      1  1:31:48
+        95     95     1    500    162    338   32.4%       4.158    18      1  1:31:58
+        96     96     1    500    162    338   32.4%       4.157    18      1  1:32:12
+        97     97     1    500    162    338   32.4%       4.055    18      3  1:32:41
+        98     98     1    500    162    338   32.4%       4.022    18      1  1:32:50
+        99     99     1    500    162    338   32.4%       4.003    18      1  1:32:57
+       100    100     1    500    162    338   32.4%        3.95    18      1  1:33:06
+       101    101     1    500    163    337   32.6%       3.941    18      1  1:33:17
+       102    102     1    500    164    336   32.8%       3.937    18      1  1:33:26
+       103    103     1    500    164    336   32.8%       3.915    18      1  1:33:35
+       104    104     1    500    164    336   32.8%       3.882    18      1  1:33:44
+       105    105     1    500    164    336   32.8%       3.858    18      1  1:33:56
+       106    106     1    500    164    336   32.8%        3.84    18      2  1:34:15
+       107    107     1    500    164    336   32.8%       3.816    18      1  1:34:24
+       108    108     1    500    164    336   32.8%       3.787    18      1  1:34:38
+       109    109     1    500    165    335   33.0%        3.78    18      1  1:34:50
+       110    110     1    500    165    335   33.0%       3.732    18      1  1:35:01
+       111    111     1    500    165    335   33.0%       3.633    18      1  1:35:11
+       112    112     1    500    165    335   33.0%       3.628    18      1  1:35:21
+       113    113     1    500    165    335   33.0%       3.588    18      1  1:35:31
+       114    114     1    500    165    335   33.0%       3.576    18      1  1:35:40
+       115    115     1    500    166    334   33.2%       3.529    10      1  1:35:50
+       116    116     1    500    167    333   33.4%       3.527    10      1  1:35:59
+       117    117     1    500    167    333   33.4%       3.516    10      1  1:36:07
+       118    118     1    500    168    332   33.6%        3.43    10      1  1:36:17
+       119    119     1    500    168    332   33.6%       3.397    10      1  1:36:27
+       120    120     1    500    168    332   33.6%       3.375    10      1  1:36:38
+       121    121     1    500    168    332   33.6%       3.333    10      1  1:36:48
+       122    122     1    500    169    331   33.8%       3.306    10      1  1:37:00
+       123    123     1    500    170    330   34.0%       3.283    10      1  1:37:10
+       124    124     1    500    170    330   34.0%       3.279    10      1  1:37:22
+       125    125     1    500    170    330   34.0%       3.247    10      1  1:37:36
+       126    126     1    500    170    330   34.0%       3.212    10      1  1:37:48
+       127    127     1    500    170    330   34.0%       3.205    10      1  1:37:57
+       128    128     1    500    170    330   34.0%       3.188    10      1  1:38:03
+       129    129     1    500    171    329   34.2%       3.151    10      1  1:38:13
+       130    130     1    500    171    329   34.2%       3.079    10      1  1:38:22
+       131    131     1    500    171    329   34.2%       3.029    10      1  1:38:30
+       132    132     1    500    171    329   34.2%       3.015    10      1  1:38:38
+       133    133     1    500    171    329   34.2%       2.976    10      2  1:38:55
+       134    134     1    500    172    328   34.4%       2.878    10      1  1:39:04
+       135    135     1    500    172    328   34.4%       2.738    10      1  1:39:12
+       136    136     1    500    173    327   34.6%       2.686    10      1  1:39:25
+       137    137     1    500    173    327   34.6%       2.666    10      1  1:39:35
+       138    138     1    500    173    327   34.6%       2.624    10      1  1:39:44
+       139    139     1    500    173    327   34.6%       2.591    10      2  1:40:06
+       140    140     1    500    174    326   34.8%       2.521    10      1  1:40:18
+       141    141     1    500    174    326   34.8%       2.457    10      1  1:40:25
+       142    142     1    500    175    325   35.0%        2.42    10      1  1:40:35
+       143    143     1    500    175    325   35.0%       2.411    10      1  1:40:45
+       144    144     1    500    176    324   35.2%       2.402    10      2  1:41:04
+       145    145     1    500    176    324   35.2%       2.376     7      1  1:41:16
+       146    146     1    500    177    323   35.4%       2.371     7      1  1:41:25
+       147    147     1    500    177    323   35.4%       2.344     7      1  1:41:34
+       148    148     1    500    177    323   35.4%       2.344     7      1  1:41:41
+       149    149     1    500    178    322   35.6%       2.298     7      1  1:41:53
+       150    150     1    500    178    322   35.6%       2.266     7      1  1:42:02
+       151    151     1    500    179    321   35.8%       2.228     7      1  1:42:14
+       152    152     1    500    180    320   36.0%       2.207     7      1  1:42:26
+       153    153     1    500    180    320   36.0%       2.201     7      1  1:42:39
+       154    154     1    500    180    320   36.0%         2.2     7      1  1:42:51
+       155    155     1    500    181    319   36.2%       2.183     7      1  1:43:00
+       156    156     1    500    181    319   36.2%       2.169     7      1  1:43:11
+       157    157     1    500    182    318   36.4%       2.137     7      1  1:43:22
+       158    158     1    500    183    317   36.6%       2.114     7      2  1:43:39
+       159    159     1    500    183    317   36.6%       2.081     7      1  1:43:48
+       160    160     1    500    184    316   36.8%       2.078     7      1  1:44:00
+       161    161     1    500    184    316   36.8%       2.069     7      1  1:44:24
+       162    162     1    500    184    316   36.8%       2.069     7      1  1:44:33
+       163    163     1    500    184    316   36.8%       2.057     7      1  1:44:42
+       164    164     1    500    184    316   36.8%       2.047     7      1  1:44:54
+       165    165     1    500    184    316   36.8%       2.032     8      1  1:45:05
+       166    166     1    500    184    316   36.8%       2.013     8      1  1:45:15
+       167    167     1    500    185    315   37.0%        2.01     8      1  1:45:26
+       168    168     1    500    186    314   37.2%       2.001     8      1  1:45:35
+       169    169     1    500    186    314   37.2%        1.97     8      1  1:45:44
+       170    170     1    500    186    314   37.2%       1.942     8      1  1:45:53
+       171    171     1    500    186    314   37.2%       1.911     8      1  1:46:02
+       172    172     1    500    186    314   37.2%       1.908     8      1  1:46:10
+       173    173     1    500    186    314   37.2%       1.903     8      1  1:46:21
+       174    174     1    500    187    313   37.4%       1.855     8      1  1:46:29
+       175    175     1    500    188    312   37.6%       1.843     8      1  1:46:39
+       176    176     1    500    188    312   37.6%       1.829     8      1  1:46:50
+       177    177     1    500    188    312   37.6%       1.824     8      1  1:46:59
+       178    178     1    500    188    312   37.6%       1.796     8      1  1:47:07
+       179    179     1    500    189    311   37.8%        1.79     8      1  1:47:16
+       180    180     1    500    189    311   37.8%       1.778     8      1  1:47:27
+       181    181     1    500    189    311   37.8%       1.777     8      1  1:47:41
+       182    182     1    500    189    311   37.8%        1.69     8      1  1:47:50
+       183    183     1    500    190    310   38.0%       1.673     8      1  1:47:59
+       184    184     1    500    191    309   38.2%       1.671     8      2  1:48:18
+       185    185     1    500    191    309   38.2%        1.67     8      1  1:48:27
+       186    186     1    500    191    309   38.2%       1.635     8      1  1:48:38
+       187    187     1    500    191    309   38.2%       1.611     5      1  1:48:47
+       188    188     1    500    191    309   38.2%       1.609     5      1  1:48:54
+       189    189     1    500    191    309   38.2%       1.604     5      1  1:49:04
+       190    190     1    500    192    308   38.4%       1.594     5      1  1:49:14
+       191    191     1    500    192    308   38.4%       1.581     5      1  1:49:24
+       192    192     1    500    192    308   38.4%       1.566     5      1  1:49:38
+       193    193     1    500    192    308   38.4%       1.542     5      1  1:49:47
+       194    194     1    500    193    307   38.6%       1.541     5      1  1:49:57
+       195    195     1    500    194    306   38.8%        1.54     5      1  1:50:06
+       196    196     1    500    195    305   39.0%       1.533     5      1  1:50:16
+       197    197     1    500    196    304   39.2%       1.509     5      1  1:50:26
+       198    198     1    500    196    304   39.2%       1.489     5      1  1:50:36
+       199    199     1    500    196    304   39.2%       1.487     5      1  1:50:42
+       200    200     1    500    197    303   39.4%       1.476     5      2  1:50:58
+       201    201     1    500    198    302   39.6%       1.456     5      1  1:51:09
+       202    202     1    500    199    301   39.8%       1.447     5      1  1:51:19
+       203    203     1    500    200    300   40.0%       1.442     5      1  1:51:28
+       204    204     1    500    200    300   40.0%       1.441     5      1  1:51:38
+       205    205     1    500    201    299   40.2%        1.43     5      1  1:51:47
+       206    206     1    500    201    299   40.2%       1.403     5      1  1:52:01
+       207    207     1    500    202    298   40.4%       1.398     5      1  1:52:11
+       208    208     1    500    203    297   40.6%       1.362     5      1  1:52:23
+       209    209     1    500    204    296   40.8%       1.356     5      1  1:52:34
+       210    210     1    500    204    296   40.8%        1.35     5      1  1:52:46
+       211    211     1    500    205    295   41.0%       1.342     4      1  1:52:54
+       212    212     1    500    206    294   41.2%       1.319     4      1  1:53:05
+       213    213     1    500    206    294   41.2%       1.315     4      1  1:53:14
+       214    214     1    500    207    293   41.4%       1.307     4      1  1:53:24
+       215    215     1    500    208    292   41.6%       1.274     4      1  1:53:35
+       216    216     1    500    208    292   41.6%       1.263     4      1  1:53:45
+       217    217     1    500    209    291   41.8%       1.251     4      1  1:53:54
+       218    218     1    500    210    290   42.0%       1.239     4      1  1:54:04
+       219    219     1    500    211    289   42.2%       1.238     4      1  1:54:14
+       220    220     1    500    211    289   42.2%       1.216     4      1  1:54:24
+       221    221     1    500    212    288   42.4%       1.171     4      1  1:54:34
+       222    222     1    500    212    288   42.4%       1.143     4      1  1:54:48
+       223    223     1    500    213    287   42.6%       1.135     4      1  1:54:58
+       224    224     1    500    214    286   42.8%       1.134     4      2  1:55:15
+       225    225     1    500    214    286   42.8%       1.127     4      1  1:55:25
+       226    226     1    500    214    286   42.8%       1.113     4      1  1:55:35
+       227    227     1    500    214    286   42.8%       1.106     4      1  1:55:44
+       228    228     1    500    214    286   42.8%       1.094     4      1  1:55:53
+       229    229     1    500    215    285   43.0%       1.085     4      1  1:56:03
+       230    230     1    500    215    285   43.0%       1.077     4      1  1:56:11
+       231    231     1    500    215    285   43.0%       1.058     4      1  1:56:19
+       232    232     1    500    216    284   43.2%       1.058     4      1  1:56:27
+       233    233     1    500    217    283   43.4%       1.056     4      1  1:56:36
+       234    234     1    500    217    283   43.4%       1.044     4      1  1:56:45
+       235    235     1    500    217    283   43.4%       1.016     4      2  1:57:01
+       236    236     1    500    218    282   43.6%       1.016     4      2  1:57:18
+       237    237     1    500    219    281   43.8%       1.005     8      1  1:57:26
+       238    238     1    500    219    281   43.8%       1.004     8      1  1:57:35
+       239    239     1    500    220    280   44.0%       1.001     8      2  1:57:51
+       240    240     1    500    221    279   44.2%      0.9694     8      1  1:58:00
+       241    241     1    500    222    278   44.4%      0.9524     8      1  1:58:09
+       242    242     1    500    223    277   44.6%      0.9501     8      1  1:58:18
+       243    243     1    500    224    276   44.8%      0.9455     8      1  1:58:26
+       244    244     1    500    224    276   44.8%      0.9444     8      1  1:58:36
+       245    245     1    500    224    276   44.8%       0.927     8      1  1:58:45
+       246    246     1    500    224    276   44.8%      0.9161     8      1  1:58:54
+       247    247     1    500    224    276   44.8%      0.9117     8      1  1:59:03
+       248    248     1    500    224    276   44.8%      0.9033     8      1  1:59:12
+       249    249     1    500    225    275   45.0%      0.9008     8      1  1:59:21
+       250    250     1    500    225    275   45.0%      0.8973     8      1  1:59:32
+       251    251     1    500    225    275   45.0%       0.885     8      1  1:59:40
+       252    252     1    500    226    274   45.2%      0.8842     8      1  1:59:49
+       253    253     1    500    226    274   45.2%       0.875     8      1  1:59:58
+       254    254     1    500    226    274   45.2%      0.8732     8      1  2:00:09
+       255    255     1    500    227    273   45.4%      0.8527     8      1  2:00:18
+       256    256     1    500    227    273   45.4%      0.8405     8      1  2:00:26
+       257    257     1    500    228    272   45.6%      0.8386     8      1  2:00:34
+       258    258     1    500    229    271   45.8%      0.8333     8      1  2:00:44
+       259    259     1    500    230    270   46.0%      0.8309     8      1  2:00:52
+       260    260     1    500    230    270   46.0%      0.8308     8      2  2:01:08
+       261    261     1    500    230    270   46.0%      0.8174     8      1  2:01:17
+       262    262     1    500    231    269   46.2%      0.8097     8      1  2:01:28
+       263    263     1    500    232    268   46.4%      0.7966     8      1  2:01:39
+       264    264     1    500    233    267   46.6%      0.7907     8      1  2:01:48
+       265    265     1    500    233    267   46.6%      0.7906     8      1  2:01:59
+       266    266     1    500    234    266   46.8%      0.7894     8      1  2:02:08
+       267    267     1    500    234    266   46.8%      0.7795     6      1  2:02:18
+       268    268     1    500    234    266   46.8%      0.7784     6      2  2:02:40
+       269    269     1    500    234    266   46.8%      0.7772     6      1  2:02:48
+       270    270     1    500    234    266   46.8%      0.7743     6      1  2:02:57
+       271    271     1    500    234    266   46.8%       0.768     6      1  2:03:05
+       272    272     1    500    235    265   47.0%      0.7647     6      1  2:03:14
+       273    273     1    500    236    264   47.2%      0.7598     6      1  2:03:24
+       274    274     1    500    237    263   47.4%       0.759     6      1  2:03:35
+       275    275     1    500    238    262   47.6%      0.7569     6      1  2:03:44
+       276    276     1    500    238    262   47.6%      0.7561     6      1  2:03:53
+       277    277     1    500    239    261   47.8%      0.7528     6      2  2:04:13
+       278    278     1    500    240    260   48.0%      0.7527     6      3  2:04:41
+       279    279     1    500    240    260   48.0%      0.7486     6      1  2:04:51
+       280    280     1    500    240    260   48.0%      0.7484     6      1  2:05:01
+       281    281     1    500    241    259   48.2%      0.7396     6      1  2:05:12
+       282    282     1    500    242    258   48.4%      0.7333     6      1  2:05:21
+       283    283     1    500    242    258   48.4%      0.7295     6      1  2:05:30
+       284    284     1    500    242    258   48.4%      0.7272     6      1  2:05:40
+       285    285     1    500    242    258   48.4%      0.7252     6      1  2:05:47
+       286    286     1    500    243    257   48.6%      0.7201     6      1  2:05:57
+       287    287     1    500    243    257   48.6%      0.7126     6      1  2:06:05
+       288    288     1    500    243    257   48.6%      0.7096     6      1  2:06:14
+       289    289     1    500    243    257   48.6%      0.7083     6      2  2:06:33
+       290    290     1    500    244    256   48.8%      0.7056     6      1  2:06:44
+       291    291     1    500    244    256   48.8%      0.7028     6      1  2:06:53
+       292    292     1    500    244    256   48.8%      0.6937     6      1  2:07:02
+       293    293     1    500    245    255   49.0%      0.6864     6      1  2:07:12
+       294    294     1    500    246    254   49.2%      0.6781     6      1  2:07:28
+       295    295     1    500    246    254   49.2%      0.6695     6      1  2:07:38
+       296    296     1    500    246    254   49.2%      0.6653     6      1  2:07:48
+       297    297     1    500    246    254   49.2%      0.6618     6      1  2:07:59
+       298    298     1    500    246    254   49.2%       0.659     6      1  2:08:12
+       299    299     1    500    246    254   49.2%      0.6518     6      1  2:08:23
+       300    300     1    500    247    253   49.4%      0.6491     6      1  2:08:32
+       301    301     1    500    248    252   49.6%      0.6473     6      1  2:08:42
+       302    302     1    500    249    251   49.8%      0.6426     6      1  2:08:53
+       303    303     1    500    249    251   49.8%      0.6388     6      1  2:09:05
+       304    304     1    500    250    250   50.0%      0.6379     6      1  2:09:15
+       305    305     1    500    250    250   50.0%      0.6369     6      1  2:09:22
+       306    306     1    500    250    250   50.0%      0.6357     6      2  2:09:46
+       307    307     1    500    251    249   50.2%      0.6356     6      1  2:09:57
+       308    308     1    500    251    249   50.2%      0.6336     6      1  2:10:07
+       309    309     1    500    251    249   50.2%      0.6303     6      1  2:10:19
+       310    310     1    500    251    249   50.2%      0.6269     6      1  2:10:28
+       311    311     1    500    252    248   50.4%      0.6121     6      1  2:10:38
+       312    312     1    500    253    247   50.6%      0.6073     6      2  2:10:56
+       313    313     1    500    254    246   50.8%      0.6008     6      1  2:11:06
+       314    314     1    500    255    245   51.0%      0.5979     6      1  2:11:14
+       315    315     1    500    256    244   51.2%      0.5959     6      1  2:11:28
+       316    316     1    500    257    243   51.4%      0.5957     6      2  2:11:46
+       317    317     1    500    258    242   51.6%      0.5906     6      1  2:11:56
+       318    318     1    500    259    241   51.8%      0.5898     6      3  2:12:23
+       319    319     1    500    260    240   52.0%      0.5847     6      2  2:12:44
+       320    320     1    500    260    240   52.0%      0.5845     6      1  2:12:53
+       321    321     1    500    260    240   52.0%      0.5832     6      1  2:13:03
+       322    322     1    500    260    240   52.0%      0.5782     8      1  2:13:11
+       323    323     1    500    260    240   52.0%      0.5769     8      1  2:13:20
+       324    324     1    500    261    239   52.2%       0.568     8      1  2:13:29
+       325    325     1    500    262    238   52.4%      0.5679     8      1  2:13:40
+       326    326     1    500    263    237   52.6%      0.5584     8      1  2:13:49
+       327    327     1    500    264    236   52.8%      0.5538     8      1  2:13:58
+       328    328     1    500    265    235   53.0%      0.5518     8      1  2:14:07
+       329    329     1    500    266    234   53.2%      0.5514     8      1  2:14:16
+       330    330     1    500    266    234   53.2%      0.5487     8      1  2:14:25
+       331    331     1    500    267    233   53.4%      0.5474     8      1  2:14:35
+       332    332     1    500    268    232   53.6%      0.5418     8      1  2:14:47
+       333    333     1    500    269    231   53.8%      0.5324     8      1  2:14:58
+       334    334     1    500    269    231   53.8%      0.5235     8      1  2:15:07
+       335    335     1    500    270    230   54.0%      0.5222     8      1  2:15:17
+       336    336     1    500    271    229   54.2%      0.5168     8      1  2:15:27
+       337    337     1    500    272    228   54.4%      0.5124     8      1  2:15:38
+       338    338     1    500    273    227   54.6%      0.5123     8      1  2:15:47
+       339    339     1    500    274    226   54.8%      0.5012     8      1  2:15:55
+       340    340     1    500    274    226   54.8%      0.4953     8      1  2:16:05
+       341    341     1    500    275    225   55.0%      0.4939     8      1  2:16:14
+       342    342     1    500    276    224   55.2%       0.492     8      1  2:16:23
+       343    343     1    500    277    223   55.4%      0.4916     8      1  2:16:31
+       344    344     1    500    277    223   55.4%      0.4826     8      1  2:16:41
+       345    345     1    500    277    223   55.4%      0.4822     8      1  2:16:51
+       346    346     1    500    277    223   55.4%      0.4798     8      1  2:17:02
+       347    347     1    500    278    222   55.6%      0.4792     8      1  2:17:13
+       348    348     1    500    279    221   55.8%      0.4767     8      1  2:17:21
+       349    349     1    500    280    220   56.0%      0.4738     8      1  2:17:31
+       350    350     1    500    281    219   56.2%      0.4723     8      1  2:17:40
+       351    351     1    500    282    218   56.4%      0.4662     8      1  2:17:49
+       352    352     1    500    283    217   56.6%       0.466     8      1  2:17:59
+       353    353     1    500    284    216   56.8%      0.4622     8      1  2:18:07
+       354    354     1    500    285    215   57.0%       0.457     8      1  2:18:16
+       355    355     1    500    286    214   57.2%      0.4551     8      1  2:18:26
+       356    356     1    500    287    213   57.4%       0.455     8      1  2:18:36
+       357    357     1    500    287    213   57.4%      0.4541     8      2  2:18:52
+       358    358     1    500    288    212   57.6%      0.4537     8      1  2:19:02
+       359    359     1    500    289    211   57.8%      0.4521     8      1  2:19:11
+       360    360     1    500    289    211   57.8%      0.4515     8      1  2:19:21
+       361    361     1    500    290    210   58.0%      0.4457     8      1  2:19:34
+       362    362     1    500    290    210   58.0%      0.4412     8      1  2:19:50
+       363    363     1    500    291    209   58.2%       0.441     8      1  2:20:02
+       364    364     1    500    291    209   58.2%      0.4378     8      1  2:20:17
+       365    365     1    500    292    208   58.4%       0.437     8      2  2:20:35
+       366    366     1    500    292    208   58.4%      0.4357     8      1  2:20:45
+       367    367     1    500    293    207   58.6%      0.4316     8      2  2:21:06
+       368    368     1    500    294    206   58.8%      0.4236     8      1  2:21:16
+       369    369     1    500    295    205   59.0%      0.4225     8      1  2:21:25
+       370    370     1    500    295    205   59.0%      0.4223     8      1  2:21:34
+       371    371     1    500    296    204   59.2%      0.4219     8      1  2:21:44
+       372    372     1    500    297    203   59.4%      0.4215     8      1  2:21:55
+       373    373     1    500    298    202   59.6%      0.4195     8      1  2:22:05
+       374    374     1    500    299    201   59.8%      0.4182     8      1  2:22:20
+       375    375     1    500    300    200   60.0%      0.4176     8      1  2:22:33
+       376    376     1    500    301    199   60.2%      0.4161     8      2  2:22:54
+       377    377     1    500    302    198   60.4%      0.4138     8      1  2:23:05
+       378    378     1    500    303    197   60.6%      0.4075     8      1  2:23:14
+       379    379     1    500    304    196   60.8%      0.4054     8      1  2:23:23
+       380    380     1    500    304    196   60.8%      0.4047     4      1  2:23:33
+       381    381     1    500    305    195   61.0%      0.4042     4      1  2:23:40
+       382    382     1    500    306    194   61.2%      0.4037     4      1  2:23:50
+       383    383     1    500    306    194   61.2%      0.4033     4      1  2:23:59
+       384    384     1    500    307    193   61.4%      0.4004     4      1  2:24:08
+       385    385     1    500    307    193   61.4%      0.3984     4      1  2:24:19
+       386    386     1    500    308    192   61.6%      0.3969     4      2  2:24:38
+       387    387     1    500    309    191   61.8%      0.3952     4      1  2:24:48
+       388    388     1    500    310    190   62.0%      0.3888     4      1  2:24:57
+       389    389     1    500    310    190   62.0%      0.3836     4      2  2:25:15
+       390    390     1    500    311    189   62.2%      0.3827     4      1  2:25:24
+       391    391     1    500    311    189   62.2%      0.3778     4      1  2:25:32
+       392    392     1    500    311    189   62.2%      0.3766     4      1  2:25:42
+       393    393     1    500    312    188   62.4%       0.376     4      1  2:25:50
+       394    394     1    500    313    187   62.6%      0.3756     4      1  2:25:59
+       395    395     1    500    314    186   62.8%      0.3749     4      1  2:26:07
+       396    396     1    500    314    186   62.8%      0.3728     4      1  2:26:18
+       397    397     1    500    314    186   62.8%      0.3724     4      1  2:26:28
+       398    398     1    500    315    185   63.0%       0.372     4      2  2:26:49
+       399    399     1    500    316    184   63.2%      0.3667     4      1  2:26:58
+       400    400     1    500    317    183   63.4%      0.3634     4      1  2:27:08
+       401    401     1    500    317    183   63.4%      0.3598     4      1  2:27:18
+       402    402     1    500    318    182   63.6%      0.3585     4      2  2:27:36
+       403    403     1    500    319    181   63.8%      0.3561     4      1  2:27:45
+       404    404     1    500    320    180   64.0%      0.3556     4      1  2:27:56
+       405    405     1    500    320    180   64.0%      0.3495     4      1  2:28:08
+       406    406     1    500    321    179   64.2%      0.3415     4      1  2:28:17
+       407    407     1    500    322    178   64.4%      0.3383     4      1  2:28:25
+       408    408     1    500    323    177   64.6%      0.3373     4      1  2:28:35
+       409    409     1    500    324    176   64.8%      0.3349     4      1  2:28:44
+       410    410     1    500    325    175   65.0%      0.3349     4      1  2:28:54
+       411    411     1    500    326    174   65.2%      0.3296     4      1  2:29:07
+       412    412     1    500    326    174   65.2%      0.3291     4      1  2:29:15
+       413    413     1    500    327    173   65.4%      0.3278     4      1  2:29:25
+       414    414     1    500    328    172   65.6%      0.3267     4      1  2:29:34
+       415    415     1    500    329    171   65.8%      0.3255     4      1  2:29:45
+       416    416     1    500    330    170   66.0%      0.3251     4      1  2:29:55
+       417    417     1    500    330    170   66.0%      0.3184     4      1  2:30:04
+       418    418     1    500    330    170   66.0%      0.3133     4      1  2:30:15
+       419    419     1    500    331    169   66.2%      0.3111     4      1  2:30:24
+       420    420     1    500    332    168   66.4%      0.3092     4      1  2:30:33
+       421    421     1    500    333    167   66.6%      0.3084     4      1  2:30:42
+       422    422     1    500    333    167   66.6%      0.3072     4      1  2:30:51
+       423    423     1    500    334    166   66.8%       0.305     4      1  2:31:01
+       424    424     1    500    334    166   66.8%       0.304     4      1  2:31:11
+       425    425     1    500    335    165   67.0%      0.3004     4      1  2:31:20
+       426    426     1    500    336    164   67.2%      0.2998     4      1  2:31:30
+       427    427     1    500    337    163   67.4%      0.2986     4      1  2:31:39
+       428    428     1    500    338    162   67.6%      0.2962     4      2  2:31:57
+       429    429     1    500    338    162   67.6%      0.2934     4      1  2:32:08
+       430    430     1    500    339    161   67.8%      0.2896     4      1  2:32:30
+       431    431     1    500    340    160   68.0%      0.2855     1      1  2:32:43
+       432    432     1    500    341    159   68.2%      0.2831     1      1  2:32:52
+       433    433     1    500    341    159   68.2%      0.2819     1      1  2:33:01
+       434    434     1    500    341    159   68.2%      0.2732     1      1  2:33:10
+       435    435     1    500    342    158   68.4%      0.2731     1      1  2:33:22
+       436    436     1    500    343    157   68.6%      0.2731     1      1  2:33:31
+       437    437     1    500    344    156   68.8%      0.2707     1      1  2:33:42
+       438    438     1    500    344    156   68.8%      0.2698     1      1  2:33:53
+       439    439     1    500    344    156   68.8%      0.2691     1      2  2:34:10
+       440    440     1    500    344    156   68.8%      0.2672     1      2  2:34:36
+       441    441     1    500    344    156   68.8%       0.265     1      1  2:34:46
+       442    442     1    500    345    155   69.0%      0.2646     1      1  2:34:56
+       443    443     1    500    346    154   69.2%       0.264     1      1  2:35:06
+       444    444     1    500    346    154   69.2%      0.2635     1      1  2:35:16
+       445    445     1    500    347    153   69.4%      0.2623     1      1  2:35:24
+       446    446     1    500    348    152   69.6%      0.2579     1      1  2:35:35
+       447    447     1    500    349    151   69.8%      0.2573     1      1  2:35:44
+       448    448     1    500    349    151   69.8%      0.2572     1      2  2:36:07
+       449    449     1    500    349    151   69.8%      0.2569     1      1  2:36:18
+       450    450     1    500    350    150   70.0%       0.255     1      1  2:36:28
+       451    451     1    500    351    149   70.2%       0.254     1      2  2:36:54
+       452    452     1    500    352    148   70.4%      0.2538     1      3  2:37:21
+       453    453     1    500    352    148   70.4%      0.2522     1      2  2:37:40
+       454    454     1    500    353    147   70.6%      0.2518     1      1  2:37:49
+       455    455     1    500    354    146   70.8%      0.2455     1      3  2:38:12
+       456    456     1    500    355    145   71.0%      0.2449     1      2  2:38:35
+       457    457     1    500    356    144   71.2%      0.2433     1      1  2:38:47
+       458    458     1    500    357    143   71.4%      0.2401     1      2  2:39:02
+       459    459     1    500    357    143   71.4%      0.2366     1      2  2:39:29
+       460    460     1    500    358    142   71.6%      0.2356     1      1  2:39:39
+       461    461     1    500    358    142   71.6%      0.2331     1      1  2:39:57
+       462    462     1    500    359    141   71.8%      0.2304     1      1  2:40:12
+       463    463     1    500    359    141   71.8%      0.2288     1      1  2:40:27
+       464    464     1    500    360    140   72.0%      0.2288     1      1  2:40:40
+       465    465     1    500    361    139   72.2%      0.2264     1      2  2:41:05
+       466    466     1    500    362    138   72.4%       0.223     1      1  2:41:19
+       467    467     1    500    363    137   72.6%      0.2218     1      1  2:41:29
+       468    468     1    500    363    137   72.6%      0.2199     1      1  2:41:41
+       469    469     1    500    364    136   72.8%      0.2188     1      2  2:42:00
+       470    470     1    500    364    136   72.8%      0.2186     1      1  2:42:10
+       471    471     1    500    365    135   73.0%      0.2158     1      1  2:42:22
+       472    472     1    500    366    134   73.2%      0.2144     1      1  2:42:35
+       473    473     1    500    367    133   73.4%      0.2124     1      2  2:42:55
+       474    474     1    500    368    132   73.6%      0.2105     1      1  2:43:04
+       475    475     1    500    369    131   73.8%      0.2067     1      4  2:43:52
+       476    476     1    500    369    131   73.8%      0.2057     1      1  2:44:06
+       477    477     1    500    370    130   74.0%      0.2032     1      1  2:44:16
+       478    478     1    500    371    129   74.2%      0.2019     1      1  2:44:29
+       479    479     1    500    371    129   74.2%      0.1997     1      1  2:44:39
+       480    480     1    500    371    129   74.2%      0.1979     1      1  2:44:51
+       481    481     1    500    371    129   74.2%      0.1972     1      2  2:45:15
+       482    482     1    500    371    129   74.2%      0.1884     1      1  2:45:24
+       483    483     1    500    371    129   74.2%      0.1884     1      2  2:45:44
+       484    484     1    500    372    128   74.4%       0.187     1      2  2:46:02
+       485    485     1    500    373    127   74.6%      0.1842     1      1  2:46:12
+       486    486     1    500    373    127   74.6%      0.1837     1      2  2:46:33
+       487    487     1    500    374    126   74.8%      0.1832     1      1  2:46:43
+       488    488     1    500    375    125   75.0%      0.1806     1      1  2:46:53
+       489    489     1    500    376    124   75.2%      0.1799     1      1  2:47:03
+       490    490     1    500    377    123   75.4%      0.1782     1      1  2:47:15
+       491    491     1    500    378    122   75.6%      0.1713     1      1  2:47:25
+       492    492     1    500    378    122   75.6%      0.1691     1      1  2:47:37
+       493    493     1    500    379    121   75.8%       0.169     1      1  2:47:49
+       494    494     1    500    380    120   76.0%      0.1683     1      2  2:48:13
+       495    495     1    500    381    119   76.2%      0.1671     1      1  2:48:24
+       496    496     1    500    382    118   76.4%      0.1651     1      1  2:48:36
+       497    497     1    500    383    117   76.6%       0.162     1      1  2:48:45
+       498    498     1    500    383    117   76.6%      0.1613     1      2  2:49:02
+       499    499     1    500    383    117   76.6%       0.161     1      1  2:49:12
+       500    500     1    500    384    116   76.8%      0.1606     1      2  2:49:34
+       501    501     1    500    385    115   77.0%      0.1606     1      1  2:49:46
+       502    502     1    500    386    114   77.2%      0.1605     1      1  2:49:57
+       503    503     1    500    386    114   77.2%      0.1602     1      1  2:50:07
+       504    504     1    500    386    114   77.2%      0.1598     1      1  2:50:19
+       505    505     1    500    387    113   77.4%      0.1595     1      1  2:50:29
+       506    506     1    500    387    113   77.4%      0.1585     1      1  2:50:40
+       507    507     1    500    387    113   77.4%      0.1584     1      1  2:50:50
+       508    508     1    500    388    112   77.6%      0.1583     1      1  2:51:00
+       509    509     1    500    389    111   77.8%      0.1578     1      1  2:51:10
+       510    510     1    500    390    110   78.0%      0.1575     1      1  2:51:19
+       511    511     1    500    390    110   78.0%      0.1574     1      2  2:51:38
+       512    512     1    500    391    109   78.2%      0.1562     1      1  2:51:50
+       513    513     1    500    392    108   78.4%      0.1545     1      1  2:52:00
+       514    514     1    500    393    107   78.6%      0.1524     1      1  2:52:17
+       515    515     1    500    393    107   78.6%      0.1522     1      2  2:52:40
+       516    516     1    500    394    106   78.8%      0.1507     1      1  2:52:49
+       517    517     1    500    395    105   79.0%      0.1499     1      3  2:53:21
+       518    518     1    500    396    104   79.2%      0.1443     1      1  2:53:29
+       519    519     1    500    397    103   79.4%      0.1437     1      1  2:53:39
+       520    520     1    500    398    102   79.6%      0.1436     1      1  2:53:49
+       521    521     1    500    399    101   79.8%      0.1415     1      1  2:53:58
+       522    522     1    500    399    101   79.8%      0.1395     1      1  2:54:09
+       523    523     1    500    400    100   80.0%      0.1339     1      1  2:54:19
+       524    524     1    500    400    100   80.0%      0.1337     1      1  2:54:35
+       525    525     1    500    401     99   80.2%      0.1334     1      2  2:54:54
+       526    526     1    500    402     98   80.4%      0.1326     1      1  2:55:02
+       527    527     1    500    403     97   80.6%      0.1325     1      1  2:55:13
+       528    528     1    500    404     96   80.8%      0.1325     1      1  2:55:23
+       529    529     1    500    405     95   81.0%      0.1316     1      6  2:56:20
+       530    530     1    500    405     95   81.0%      0.1315     1      1  2:56:28
+       531    531     1    500    406     94   81.2%      0.1298     1      1  2:56:38
+       532    532     1    500    407     93   81.4%      0.1285     1      1  2:56:48
+       533    533     1    500    407     93   81.4%      0.1273     1      1  2:56:58
+       534    534     1    500    407     93   81.4%      0.1267     1      3  2:57:23
+       535    535     1    500    408     92   81.6%      0.1251     1      1  2:57:33
+       536    536     1    500    409     91   81.8%      0.1244     1      1  2:57:45
+       537    537     1    500    409     91   81.8%      0.1242     1      1  2:57:54
+       538    538     1    500    410     90   82.0%       0.122     1      1  2:58:04
+       539    539     1    500    411     89   82.2%       0.122     1      1  2:58:13
+       540    540     1    500    412     88   82.4%      0.1209     1      1  2:58:23
+       541    541     1    500    413     87   82.6%      0.1197     1      1  2:58:32
+       542    542     1    500    414     86   82.8%      0.1187     1      1  2:58:41
+       543    543     1    500    415     85   83.0%      0.1171     1      1  2:58:50
+       544    544     1    500    416     84   83.2%      0.1167     1      1  2:59:00
+       545    545     1    500    417     83   83.4%      0.1146     1      1  2:59:13
+       546    546     1    500    418     82   83.6%      0.1145     1      2  2:59:38
+       547    547     1    500    419     81   83.8%      0.1145     1      2  2:59:58
+       548    548     1    500    420     80   84.0%      0.1126     1      1  3:00:08
+       549    549     1    500    420     80   84.0%       0.111     1      2  3:00:28
+       550    550     1    500    421     79   84.2%       0.109     1      1  3:00:39
+       551    551     1    500    421     79   84.2%      0.1081     1      1  3:00:49
+       552    552     1    500    422     78   84.4%      0.1079     1      1  3:00:59
+       553    553     1    500    422     78   84.4%      0.1061     1      1  3:01:07
+       554    554     1    500    423     77   84.6%      0.1049     1      4  3:01:46
+       555    555     1    500    424     76   84.8%      0.1041     1      1  3:01:56
+       556    556     1    500    425     75   85.0%       0.104     1      3  3:02:26
+       557    557     1    500    426     74   85.2%      0.1005     1      1  3:02:37
+       558    558     1    500    426     74   85.2%      0.1005     1      1  3:02:48
+       559    559     1    500    427     73   85.4%      0.1002     1      1  3:02:56
+       560    560     1    500    428     72   85.6%     0.09538     1      1  3:03:06
+       561    561     1    500    428     72   85.6%     0.09479     1      1  3:03:16
+       562    562     1    500    429     71   85.8%     0.09377     1      1  3:03:26
+       563    563     1    500    429     71   85.8%     0.08868     1      1  3:03:35
+       564    564     1    500    430     70   86.0%     0.08771     1      1  3:03:46
+       565    565     1    500    431     69   86.2%     0.08603     1      3  3:04:17
+       566    566     1    500    431     69   86.2%     0.08489     1      2  3:04:37
+       567    567     1    500    432     68   86.4%     0.08417     1      1  3:04:47
+       568    568     1    500    432     68   86.4%       0.082     1      1  3:04:57
+       569    569     1    500    433     67   86.6%     0.08192     1      2  3:05:12
+       570    570     1    500    433     67   86.6%     0.08076     1      2  3:05:32
+       571    571     1    500    434     66   86.8%     0.07774     1      1  3:05:43
+       572    572     1    500    435     65   87.0%     0.07707     1      1  3:05:52
+       573    573     1    500    435     65   87.0%     0.07412     1      2  3:06:09
+       574    574     1    500    436     64   87.2%     0.07362     1      1  3:06:19
+       575    575     1    500    437     63   87.4%     0.07069     1      1  3:06:28
+       576    576     1    500    437     63   87.4%     0.06888     1      1  3:06:39
+       577    577     1    500    438     62   87.6%     0.06741     1      1  3:06:49
+       578    578     1    500    439     61   87.8%     0.06619     1      1  3:06:59
+       579    579     1    500    440     60   88.0%     0.06614     1      1  3:07:10
+       580    580     1    500    441     59   88.2%     0.06605     1      1  3:07:27
+       581    581     1    500    442     58   88.4%     0.06421     1      1  3:07:36
+       582    582     1    500    443     57   88.6%     0.06352     1      1  3:07:49
+       583    583     1    500    444     56   88.8%     0.06267     1      1  3:07:58
+       584    584     1    500    445     55   89.0%     0.06179     1      2  3:08:20
+       585    585     1    500    445     55   89.0%      0.0602     1      1  3:08:29
+       586    586     1    500    446     54   89.2%     0.06011     1      1  3:08:39
+       587    587     1    500    447     53   89.4%     0.06006     1      1  3:08:50
+       588    588     1    500    448     52   89.6%     0.05926     1      1  3:08:59
+       589    589     1    500    449     51   89.8%     0.05919     1      1  3:09:08
+       590    590     1    500    450     50   90.0%     0.05843     1      1  3:09:17
+       591    591     1    500    451     49   90.2%     0.05766     1      1  3:09:29
+       592    592     1    500    452     48   90.4%      0.0546     1      1  3:09:38
+       593    593     1    500    453     47   90.6%     0.05325     1      1  3:09:55
+       594    594     1    500    454     46   90.8%      0.0529     1      1  3:10:06
+       595    595     1    500    455     45   91.0%      0.0527     1      3  3:10:39
+       596    596     1    500    456     44   91.2%     0.05026     1      1  3:10:49
+       597    597     1    500    457     43   91.4%     0.04948     1      1  3:10:59
+       598    598     1    500    458     42   91.6%     0.04903     1      1  3:11:09
+       599    599     1    500    459     41   91.8%     0.04694     1      1  3:11:19
+       600    600     1    500    460     40   92.0%     0.04634     1      2  3:11:40
+       601    601     1    500    461     39   92.2%     0.04601     1      1  3:11:49
+       602    602     1    500    462     38   92.4%     0.04477     1      2  3:12:15
+       603    603     1    500    463     37   92.6%     0.04472     1      1  3:12:29
+       604    604     1    500    464     36   92.8%     0.04395     1      1  3:12:41
+       605    605     1    500    465     35   93.0%     0.03992     1      1  3:12:50
+       606    606     1    500    466     34   93.2%     0.03797     1      1  3:12:59
+       607    607     1    500    467     33   93.4%     0.03792     1      3  3:13:27
+       608    608     1    500    468     32   93.6%     0.03624     1      1  3:13:36
+       609    609     1    500    469     31   93.8%     0.03406     1      2  3:13:55
+       610    610     1    500    470     30   94.0%     0.03341     1      2  3:14:14
+       611    611     1    500    471     29   94.2%     0.03234     1      1  3:14:24
+       612    612     1    500    472     28   94.4%     0.03169     1      1  3:14:35
+       613    613     1    500    472     28   94.4%     0.02714     1      1  3:14:47
+       614    614     1    500    473     27   94.6%     0.02635     1      2  3:15:09
+       615    615     1    500    474     26   94.8%     0.02622     1      3  3:15:38
+       616    616     1    500    475     25   95.0%     0.02578     1      1  3:15:48
+       617    617     1    500    475     25   95.0%     0.02562     1      1  3:15:59
+       618    618     1    500    476     24   95.2%     0.02503     1      1  3:16:08
+       619    619     1    500    477     23   95.4%      0.0249     1      1  3:16:18
+       620    620     1    500    478     22   95.6%     0.02442     1      1  3:16:27
+       621    621     1    500    478     22   95.6%     0.02331     1      1  3:16:37
+       622    622     1    500    479     21   95.8%      0.0224     1      1  3:16:45
+       623    623     1    500    480     20   96.0%     0.02094     1      1  3:16:54
+       624    624     1    500    481     19   96.2%     0.02057     1      1  3:17:08
+       625    625     1    500    482     18   96.4%     0.02003     1      1  3:17:18
+       626    626     1    500    483     17   96.6%     0.01755     1      1  3:17:27
+       627    627     1    500    484     16   96.8%     0.01681     1      2  3:17:46
+       628    628     1    500    485     15   97.0%     0.01668     1      1  3:17:56
+       629    629     1    500    486     14   97.2%     0.01626     1      2  3:18:16
+       630    630     1    500    487     13   97.4%     0.01548     1      1  3:18:26
+       631    631     1    500    488     12   97.6%     0.01533     1      1  3:18:35
+       632    632     1    500    489     11   97.8%     0.01501     1      1  3:18:44
+       633    633     1    500    489     11   97.8%     0.01278     1      1  3:18:53
+       634    634     1    500    490     10   98.0%     0.01263     1      1  3:19:02
+       635    635     1    500    491      9   98.2%     0.01174     1      1  3:19:13
+       636    636     1    500    491      9   98.2%     0.01162     1      1  3:19:27
+       637    637     1    500    492      8   98.4%    0.007962     1      2  3:19:44
+       638    638     1    500    493      7   98.6%    0.007904     1      2  3:20:04
+       639    639     1    500    494      6   98.8%     0.00703     1      1  3:20:15
+       640    640     1    500    495      5   99.0%    0.006797     1      2  3:20:34
+       641    641     1    500    496      4   99.2%    0.006348     1      1  3:20:43
+       642    642     1    500    497      3   99.4%    0.002257     1      1  3:20:52
+       643    643     1    500    498      2   99.6%    0.001683     1      1  3:21:02
+       644    644     1    500    499      1   99.8%   0.0008171     1      1  3:21:12
+       645    645     1    500    500      0  100.0%   -0.000155     1      2  3:21:32
+
+  ════════════════════════════════════════════════════════════════════════════════════
+  RESULT — CONVERGED
+  ════════════════════════════════════════════════════════════════════════════════════
+    Termination         : all live points VaR[G] <= 0  (alpha = 0)
+                          reached — 0 uncertified live points
+    Worst live point    : VaR[G] = -0.000155
+    Sweeps              : 645
+    Replacements        : 645
+    Final modes         : 1
+    Wall time           : 03h 21m 33s 292ms
+    Live points         : 500
+    Dead points         : 645
+    Candidate evals     : 752  (accepted 645, rejected 107)
+    Sampling eff.       : 85.8%  (accepted / candidate evals)
+    Model runs          : 1252  (K = 1 per eval × [500 seed + 752 candidates])
+    Failed runs         : 0  (0.0% of model runs, counted as infeasible)
+  ════════════════════════════════════════════════════════════════════════════════════
+
+  ────────────────────────────────────────────────────────────────────────────────────
+  FINAL MODES  (LIVE points only — dead points keep their evicting mode's label,
+  which may have retired at a split, so they do not partition the final modes)
+  ────────────────────────────────────────────────────────────────────────────────────
+    Mode 1              :   500 live points  [label 1]
+    Total               :   500 live points
+  ────────────────────────────────────────────────────────────────────────────────────
+  [monitor] 688 frame(s) (of 795 emitted) -> c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_live_serial_frames.pkl
+  [monitor] history -> c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_live_serial_history.csv
+  [monitor] snapshot -> c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_live_serial.png
+saved              : c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_design_space_serial.npz
+saved              : c:\Users\asuna\Imperial College London\Bernardi, Andrea - Asu_Yildirim\Asu_Parallel\tp_design_space_serial.csv  (1252 rows)
+
+--- serial run summary -------------------------------------
+initialisation     :      0.4 s   (excluded from the below)
+wall clock         :  12093.7 s   (201.6 min)
+  in HYSYS         :  12023.8 s   (99.4 %)
+  in sampler       :     69.9 s   (0.6 %)
+model evaluations  :     1252
+seconds per solve  :     9.60 s   (mean over 1252 calls)
+  seed             :   4623.5 s   (500 solves, 4623.2 s in HYSYS)
+  replacement      :   7470.2 s   (752 solves, 7400.5 s in HYSYS)
+terminated         : converged  (0 live points uncertified)
+------------------------------------------------------------
