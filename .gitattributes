@@ -1,0 +1,22 @@
+# The shell scripts are run under WSL/Ubuntu. Checking them out with CRLF
+# makes bash fail with "bad interpreter: /bin/bash^M", so pin them to LF
+# regardless of the platform Git is checking out on.
+*.sh text eol=lf
+
+# Python is read on both sides of the Windows/WSL split; keeping one line
+# ending avoids a whole-file diff every time the other side touches it.
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+
+# Windows-only, and cmd.exe wants CRLF.
+*.bat text eol=crlf
+
+# Never touched: Git must not "fix" line endings inside these.
+*.npz binary
+*.hsc binary
+*.xlsx binary
+*.png binary
+*.pdf binary
+*.pkl binary

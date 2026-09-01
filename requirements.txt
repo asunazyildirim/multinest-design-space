@@ -1,0 +1,25 @@
+# numpy and scipy are pinned to the versions the archived runs were produced
+# on. Re-running a sampler on a different build gives the same design space
+# but slightly different counters, because the decomposition's eigen
+# decomposition differs in its last bits. Reading the archives is unaffected.
+numpy==2.4.6
+scipy==1.18.0
+pandas
+matplotlib
+openpyxl
+
+# Windows only, and only for the scripts that drive Aspen HYSYS over COM
+# (run_sampler_kinetics_serial.py, hysys_bridge_server.py, simulation_runner.py,
+# convergence.py, hysys_connection.py, sensitivity_parallel_batch_v2.py).
+# Nothing else imports them.
+pywin32 ; sys_platform == "win32"
+
+# `hysyspy` is an in-house HYSYS wrapper, not on PyPI. Two places want it:
+# flowsheet_copier.py, which makes the four parallel .hsc copies for the
+# reference sweep, and the `__main__` block of convergence.py, which reports on
+# whatever case is loaded. Nothing imports it on the path used by the sampler
+# or by any figure, so both can be skipped.
+
+# The MAGNUS/NSFeas baseline is NOT installable from here. It is a C++ library
+# with Python bindings, built under WSL/Ubuntu. See magnus_wsl/README notes and
+# https://github.com/omega-icl/magnus
