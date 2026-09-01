@@ -195,7 +195,7 @@ three-torus and single-ellipse cases behind Figure 2 — were drafted with
 Claude. Which problems to include, and what each is there to test, was decided
 by the author.
 
-**This README** was written with Claude.
+**This README** was written by Claude and checked by the author.
 
 Not produced by these tools: the design of the study, the selection of the
 comparisons and test problems, the runs behind the reported results, the
