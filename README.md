@@ -120,6 +120,7 @@ Figures and tables (no HYSYS needed):
 | `magnus_tp_output/magnus_tp_bridge_NL500.{npz,csv}` | The MAGNUS run of the same problem, 18 August, timing-instrumented, no warm start, 0 cache hits. |
 | `magnus_tp_output/magnus_tp_physbox_bridge_NL500.{npz,csv}`, `logs/magnus_tp_physbox_bridge_NL500.log` | The same MAGNUS run with the search box left unnormalised. Identical to the row above: the same 1612 points to 2.3e-11, the same 657 / 455 split, the same efficiency. Assembled over three sessions after two HYSYS crashes, so it carries 1096 warm cache hits and its wall clock measures nothing. |
 | `logs/tp_run_serial.log`, `logs/magnus_tp_bridge_NL500.log` | The raw run logs behind the wall-clock figures in Table Y. |
+
 The Aspen HYSYS flowsheet behind the CO₂-to-methanol study, `methanol.hsc`, is
 not included here. The archived runs above are what it produced, and the code
 that drives it is in the table further up, so everything except the flowsheet
